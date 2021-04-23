@@ -273,10 +273,12 @@ body{
   font-size: 30px;
   color: black;
 }
+
 .fa-utensils{
   color:lightsalmon;
   margin-bottom: 10px;
 }
+
 .fa-dumbbell{
   margin-bottom: 10px;
   color: whitesmoke;
@@ -295,6 +297,7 @@ body{
   margin-bottom: 50px;
   margin-top:-80px;
 }
+
 .hero-image-2{
   width:100%;
   height:100%;
@@ -338,13 +341,29 @@ body{
 } 
     
 .membership .btn{
-   text-transform: capitalize;
-   width: 20%;
+  text-transform: capitalize;
+  width: 20%;
     
 }
 
 .membership .btn:hover{
    
-   background-color:#EF629F;
+  background-color:#EF629F;
    
+}
+
+/*-------------------results--------------------*/
+
+.results{
+  
+  margin-top:100px;
+
+}
+
+.section-heading{
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom:100px ;
+  color:white;
+  margin-right:70px;
 }
