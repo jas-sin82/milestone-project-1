@@ -80,7 +80,7 @@ body{
     
 }
 
-/*---------------------------hover---------*/
+
 .logo :hover{
   color:whitesmoke;
   
@@ -104,9 +104,89 @@ body{
   
 }
 
+/*---------------------------------home-page-hero-image & heading------ */
+ 
+#container-1{
+  width:100%;
+  height: 850px;
+  position: relative;
+}
+
+
+.hero-image{
+  width:100%;
+  height:100%;
+  background-image: url("../images/home-page-hero.jpg");
+  background-position: center;
+  background-size: cover;
+  clear:both;
+  overflow: hidden;
+  animation-name: hero-image;
+  animation-duration: 7s;
+  animation-fill-mode:forwards;
+ 
+}
+
+@keyframes hero-image {
+    from{
+      transform: scale(0.5);
+    }
+    to{
+      transform: scale(1);
+    }
+  }
+  
+
+.hero-text {
+  position: absolute;
+  top: 400px;
+  left: 100px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+
+  
+}
+
+.hero-text span{
+  color:rgb(228, 77, 23);
+}
+
+.hero-text hr{
+  width: 70%;
+  height: 1px;
+  background-color:orangered;
+  clear:both;
+  
+} 
+
+/*-----------------------btn-button------*/
+
+.button-btn{
+   position: absolute;
+   margin-top: 30px;
+   margin-left: 100px;
+   border-radius: 20px;
+   width:25%;
+   background: #44A08D;
+   font-size: 16px;
+   text-align: center;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+  
+}
+
+.button-btn a {
+
+  text-decoration: none;
+  color: white;
+  padding:0px;
+
+}
 .button-btn:hover{
+  
   background-color: #4ca2cd;
   width:35%;
   
-
 }
