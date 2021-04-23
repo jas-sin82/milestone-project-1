@@ -286,3 +286,65 @@ body{
   color:red;
   margin-bottom: 10px;
 }
+
+/*----------------------------section-3------*/
+#container-2{
+  width:100%;
+  height: 800px;
+  position: relative;
+  margin-bottom: 50px;
+  margin-top:-80px;
+}
+.hero-image-2{
+  width:100%;
+  height:100%;
+  background-image: url("../images/our team.jpg");
+  background-position: center;
+  background-size: cover;
+  clear:both;
+  
+}
+
+.hero-text-2 {
+  position: absolute;
+  top: 200px;
+  left:70px;
+  text-transform: uppercase;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 4px;
+  text-align: left;
+
+}
+  
+.hero-text-2 span{
+  
+  color:rgb(228, 77, 23);
+  
+}
+  
+.hero-text-2 hr{
+  width: 40%;
+  height: 1px;
+  background-color:orangered;
+  clear:both;
+
+}
+  
+.hero-text-2 h4{
+    
+  line-height: 2;
+ 
+} 
+    
+.membership .btn{
+   text-transform: capitalize;
+   width: 20%;
+    
+}
+
+.membership .btn:hover{
+   
+   background-color:#EF629F;
+   
+}
