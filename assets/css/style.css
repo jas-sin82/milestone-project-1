@@ -421,6 +421,34 @@ body{
    
 }
 
+/*---------------------membership page media query----*/
+
+.container-membership{
+    flex-direction: column;
+    justify-content: space-between;
+      
+}
+
+.container-membership .membership-premium{
+    width:100%;
+    border:none;
+    margin-top:10px;
+      
+} 
+
+.container-membership .membership-silver{
+    width:100%;
+    border:none;
+    margin-top: 10px;
+    
+}
+   
+.container-membership .membership-gold{
+    width:100%;
+    border:none;
+    margin-top:10px;
+}
+
 }
 
 @media (max-width: 768px){
@@ -441,6 +469,10 @@ body{
 }
 
 .heading {
+    font-size: x-large;
+}
+
+.heading-3{
     font-size: x-large;
 }
   
@@ -564,6 +596,19 @@ body{
 }
  .hero-text-2  .hard-work{
     font-size: large;
+  
+}
+
+/*---------------------------------membership-page-media query-------*/
+
+.crossfit-bar-text .hard-work{
+   font-size:large;
+   text-align: center;
+}
+
+.crossfit-bar-text .hard-work span{
+   font-size:40px;
+   text-align:center;
   
 }
 
@@ -853,3 +898,40 @@ color-2 a i {
       transform: scale(1);
     }
   }
+
+  /*---------------------------------------section-3-----------*/
+
+.crossfit-bar-image{
+   width:100%;
+   height:100%;
+   background-image: url("../images/crossfit-bar.jpg");
+   background-position: center;
+   background-size: cover;
+   clear:both;
+   overflow:hidden;
+  
+}
+
+.crossfit-bar-text {
+    position: absolute;
+    top: 200px;
+    left: 80px;
+    text-transform: uppercase;
+    color:white;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 4px;
+    text-align: center;
+    justify-content:center;
+    
+}
+
+.crossfit-bar-text span{
+    color:orangered;
+    font-size: 70px;
+  
+}
+
+.make-a-call{
+    margin-top: 20px;
+  
+}
