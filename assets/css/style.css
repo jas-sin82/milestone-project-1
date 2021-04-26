@@ -914,82 +914,167 @@ color-2 a i {
 }
 
 .crossfit-bar-text {
-    position: absolute;
-    top: 200px;
-    left: 80px;
-    text-transform: uppercase;
-    color:white;
-    font-family: 'Oswald', sans-serif;
-    letter-spacing: 4px;
-    text-align: center;
-    justify-content:center;
+   position: absolute;
+   top: 200px;
+   left: 80px;
+   text-transform: uppercase;
+   color:white;
+   font-family: 'Oswald', sans-serif;
+   letter-spacing: 4px;
+   text-align: center;
+   justify-content:center;
     
 }
 
 .crossfit-bar-text span{
-    color:orangered;
-    font-size: 70px;
+   color:orangered;
+   font-size: 70px;
   
 }
 
 .make-a-call{
-    margin-top: 20px;
+   margin-top: 20px;
   
 }
 
 /*---------------------------nutrition-page------------*/
 
 #nutrition-page{
-    background-image:url(../images/NutritionWellness-1.jpg);
-    width:100%;
-    min-height: 100%;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: repeat;
+   background-image:url(../images/NutritionWellness-1.jpg);
+   width:100%;
+   min-height: 100%;
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+   background-repeat: repeat;
     
 }
 
 .nutrition-1{
-    position: absolute;
-    top: 100px;
-    left: 50px;
+   position: absolute;
+   top: 100px;
+   left: 50px;
 }
 
 .background-image{
-    background-image:url("../images/NutritionWellness.jpg");
-    height:500px;
-    width:100%;
-    background-size: cover;
-    background-position:center;
-    position: relative;
+   background-image:url("../images/NutritionWellness.jpg");
+   height:500px;
+   width:100%;
+   background-size: cover;
+   background-position:center;
+   position: relative;
      
 }
 
 .nutrition-centric{
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: orangered;
+   text-transform: uppercase;
+   letter-spacing: 4px;
+   color: orangered;
 }
   
 .recipies{
-    color:white;
-    text-transform: capitalize;
-    font-style: italic;
-    animation-name: gold-1;
-    animation-duration: 5s;
-    animation-fill-mode:forwards;
+   color:white;
+   text-transform: capitalize;
+   font-style: italic;
+   animation-name: gold-1;
+   animation-duration: 5s;
+   animation-fill-mode:forwards;
 
 }
  
 .wellness-line{
-    width:50%;
-    background-color: orangered;
+   width:50%;
+   background-color: orangered;
 }
 
 .nutrition-button{
-    width: 150px;
-    margin-top: 10px;
-    text-align: center;
+   width: 150px;
+   margin-top: 10px;
+   text-align: center;
 }
   
+/*---------------------------section-2---nutrition-page----*/
+
+.container-nutrition{
+   display: flex;
+   margin-top: -150px;
+   margin-bottom: 80px;
+   justify-content: space-around;
+   background-repeat: no-repeat;
+   background-size: cover;
+   text-transform:capitalize;
+   justify-content: space-between ;
+   text-align: center;
+   padding:50px;
+   width:100%;
+   background-color:white;
+}
+ 
+.nutrition-starter{
+
+   border-radius: 10px;
+   background-image: url("../images/premium-card.jpg");
+   width:30%;
+   background-size: cover;
+   overflow: hidden;
+   animation-name: nutrition-1;
+   animation-duration: 7s;
+   animation-fill-mode:forwards;
+
+}
+
+@keyframes nutrition-1 {
+  from{
+    transform:rotate(30deg);
+  }
+  to{
+    transform: scale(1);
+  }
+}
+
+
+.nutrition-basic{
+   
+   border-radius: 10px;
+   background-image: url("../images/silver-members.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   overflow: hidden;
+   width: 30%;
+   animation-name: nutrition-1;
+   animation-duration: 7s;
+   animation-fill-mode:forwards;
+
+}
+
+@keyframes nutrition-1 {
+  from{
+    transform:rotate(30deg);
+  }
+  to{
+    transform: scale(1);
+  }
+}
+  
+    
+.nutrition-advanced{
+     
+   border-radius: 10px;
+   background-image: url("../images/gold-members.jpg");
+   width:30%;
+   background-size: cover;
+   overflow: hidden;
+   animation-name: nutrition-1;
+   animation-duration: 7s;
+   animation-fill-mode:forwards;
+
+}
+
+@keyframes nutrition-1 {
+  from{
+    transform:rotate(30deg);
+  }
+  to{
+    transform: scale(1);
+  }
+}
