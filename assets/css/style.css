@@ -1078,3 +1078,57 @@ color-2 a i {
     transform: scale(1);
   }
 }
+/*----------------------------section-3 nutrition-page-----*/
+.crossfit-nutrition{
+  text-align: center; 
+  width:100%;
+  height: 100%;
+  margin-bottom: 50px;
+  text-transform:uppercase;
+  color: white;
+  padding-top: 5px;
+  padding-bottom:10px;
+}
+.power{
+ letter-spacing: 4px;
+}
+.food-heal{
+  text-transform: capitalize;
+}
+
+/*-----------------------------section-4 nutrition-page----*/
+
+.crossfit-100-recipies{
+ position: absolute;
+ top:150px;
+ 
+}
+
+ .recipies-image{
+ background-image:url("../images/100-recipes.jpg");
+ height:500px;
+ width:100%;
+ background-size: cover;
+ background-position:center;
+ position: relative;
+
+
+}
+
+.nutrition-recipies{
+text-transform: uppercase;
+letter-spacing: 4px;
+color: white;
+text-align: justify;
+font-size: x-large;
+
+}
+.recipies-button{
+position: absolute;
+left:200px;
+margin-top: 30px;
+width: 150px;
+padding:10px;
+text-transform: capitalize;
+
+}
