@@ -936,3 +936,60 @@ color-2 a i {
     margin-top: 20px;
   
 }
+
+/*---------------------------nutrition-page------------*/
+
+#nutrition-page{
+    background-image:url(../images/NutritionWellness-1.jpg);
+    width:100%;
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    
+}
+
+.nutrition-1{
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+
+.background-image{
+    background-image:url("../images/NutritionWellness.jpg");
+    height:500px;
+    width:100%;
+    background-size: cover;
+    background-position:center;
+    position: relative;
+     
+}
+
+.nutrition-centric{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: orangered;
+}
+  
+.recipies{
+    color:white;
+    text-transform: capitalize;
+    font-style: italic;
+    animation-name: gold-1;
+    animation-duration: 5s;
+    animation-fill-mode:forwards;
+
+}
+ 
+.wellness-line{
+    width:50%;
+    background-color: orangered;
+}
+
+.nutrition-button{
+    width: 150px;
+    margin-top: 10px;
+    text-align: center;
+}
+  
