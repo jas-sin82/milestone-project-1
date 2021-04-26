@@ -450,7 +450,38 @@ body{
     margin-top:10px;
 }
 
+/*--------------------------nutrition page media query--*/
+
+.container-nutrition{
+   flex-direction: column;
+   justify-content: space-between;
+  
 }
+
+.container-nutrition .nutrition-starter{
+   width:100%;
+   border:none;
+   margin-top:10px;
+  
+} 
+
+.container-nutrition .nutrition-basic{
+   width:100%;
+   border:none;
+   margin-top: 10px;
+  
+  
+}
+.container-nutrition .nutrition-advanced{
+   width:100%;
+   border:none;
+   margin-top:10px;
+
+}
+
+} 
+
+
 
 @media (max-width: 768px){
     
@@ -506,6 +537,16 @@ body{
 .transform{
     font-size: 20px;
 
+}
+
+.nutrition-button{
+    display: none;
+     
+}
+
+.recipies-button{
+    display:none;
+     
 }
 /*----------------------footer media query----------*/
       
