@@ -716,3 +716,140 @@ color-2 a i {
     background-color: white;
   
 }
+
+/*---------------------------membership-page------------*/
+
+#membership-page{
+   background-image: url(../images/premium-card.png);
+   background-color:#283048;
+   width:100vw;
+   min-height: 100vh;
+   background-attachment: fixed;
+}
+
+/*----------------------------section-1-----------*/
+
+.hero-image-membership{
+   width:100%;
+   height:800px;
+   background-image: url("../images/group-training.jpg");
+   background-position: center;
+   background-size: cover;
+   clear:both;
+   overflow: hidden;
+}
+ 
+.hero-text-membership {
+   position: absolute;
+   top: 350px;
+   font-weight: 800;
+   text-transform: uppercase;
+   letter-spacing: 4px;
+   color: white;
+   font-weight: 400px;
+   font-family: 'Oswald', sans-serif;
+   text-align: center;
+  
+}
+ 
+.hero-text-membership span{
+   color:rgb(228, 77, 23);
+}
+
+ /*---------------------------section-2---------------*/
+
+.motivation-1{
+   text-align: center; 
+   width:100%;
+   height: 100%;
+   margin-top: 20px;
+   text-transform:uppercase;
+   color: white;
+   padding-top: 5px;
+   padding-bottom:5px;
+   letter-spacing: 3px;
+ 
+}
+
+ .container-membership{
+   display: flex;
+   margin-top: 50px;
+   margin-bottom: 80px;
+   justify-content: space-around;
+   background-repeat: no-repeat;
+   background-size: cover;
+   text-transform:capitalize;
+   justify-content: space-between ;
+   text-align: center;
+   padding:50px;
+   width:100%;
+   background-color:white;
+  
+ 
+ }
+
+.membership-premium{
+   border-radius: 10px;
+   background-image: url("../images/premium-card.jpg");
+   width:30%;
+   background-size: cover;
+   overflow: hidden;
+   animation-name: premium;
+   animation-duration: 5s;
+   animation-fill-mode:forwards;
+ 
+}
+
+@keyframes premium {
+    from{
+      transform: scale(0.5);
+    }
+    to{
+      transform: scale(1);
+    }
+  }
+ 
+
+.membership-silver{
+   border-radius: 10px;
+   background-image: url("../images/silver-members.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   overflow: hidden;
+   width: 30%;
+   animation-name: silver-1;
+   animation-duration: 5s;
+   animation-fill-mode:forwards;
+ 
+}
+
+ @keyframes silver-1 {
+    from{
+      transform: scale(0.5);
+    }
+    to{
+      transform: scale(1);
+    }
+  }
+    
+  
+.membership-gold{
+   border-radius: 10px;
+   background-image: url("../images/gold-members.jpg");
+   width:30%;
+   background-size: cover;
+   overflow: hidden;
+   animation-name: gold-1;
+   animation-duration: 5s;
+   animation-fill-mode:forwards;
+ 
+}
+  
+@keyframes gold-1 {
+    from{
+      transform: scale(0.5);
+    }
+    to{
+      transform: scale(1);
+    }
+  }
