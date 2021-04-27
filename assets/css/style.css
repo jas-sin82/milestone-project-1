@@ -11,7 +11,7 @@
 
 body{
   
-   background-image: url("../images/body-image.jpg");
+   background-image: url("../images/body-image-1.jpg");
    width:100%;
    height: 100%;
 }
@@ -539,15 +539,15 @@ body{
 
 }
 
-.nutrition-button{
-    display: none;
-     
-}
-
 .recipies-button{
     display:none;
      
 }
+
+.nutrition-recipies{
+  font-size: 20px;
+}
+
 /*----------------------footer media query----------*/
       
 .container-2{
@@ -1010,29 +1010,18 @@ color-2 a i {
 .nutrition-centric{
    text-transform: uppercase;
    letter-spacing: 4px;
-   color: orangered;
-}
-  
-.recipies{
    color:white;
-   text-transform: capitalize;
-   font-style: italic;
    animation-name: gold-1;
    animation-duration: 5s;
    animation-fill-mode:forwards;
-
 }
+  
  
 .wellness-line{
-   width:50%;
+   width:70%;
    background-color: orangered;
 }
 
-.nutrition-button{
-   width: 150px;
-   margin-top: 10px;
-   text-align: center;
-}
   
 /*---------------------------section-2---nutrition-page----*/
 
@@ -1160,8 +1149,8 @@ color-2 a i {
 text-transform: uppercase;
 letter-spacing: 4px;
 color: white;
-text-align: justify;
-font-size: x-large;
+text-align: center;
+
 
 }
 .recipies-button{
