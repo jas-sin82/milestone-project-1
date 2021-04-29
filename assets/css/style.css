@@ -1110,7 +1110,7 @@ body{
 
 }
 
-/*------------------------------------about-us page----------*/
+/*------------------------------------about-us-page----------*/
 
 #about-us-background{
    background-image: url("../images/about-page.jpg");
@@ -1183,4 +1183,36 @@ body{
 .strategies{
    margin-top: 50px;
  
+}
+
+/*-------------------------------contact-page--------*/
+
+#contact-container{
+   width:100%;
+   height: 700px;
+   position: relative;
+ 
+}
+
+.contact-image{
+   background-image: url("../images/hero-image.jpg");
+   height:100%;
+   width:100%;
+   background-position: center;
+   background-size: cover;
+   clear:both;
+   overflow: hidden;
+   background-repeat: no-repeat;
+}
+
+.contact-text{
+   position: absolute;
+   top:300px;
+   left:100px;
+   text-align: center;
+   color: white;
+   text-transform: uppercase;
+   letter-spacing: 4px;
+   justify-content: center;
+   
 }
