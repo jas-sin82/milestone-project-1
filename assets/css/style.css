@@ -1143,3 +1143,39 @@ body{
      transform: scale(1);
    }
  }
+ 
+.about-us-1 {
+   margin-top: 200px;
+   
+}
+
+.crossfit-about{
+   color:white;
+  
+}
+
+.crossfit-decade{
+   font-size: xx-large;
+   letter-spacing: 4px;
+   text-transform: uppercase;
+}
+
+.crossfit-founder{
+   text-transform: capitalize;
+
+}
+
+.crossfit-image{
+   width:80%;
+
+}
+
+.about-us-2{
+   margin-top: 200px;
+   
+ }
+ 
+.crossfit-about-2{
+   color:white;
+ 
+ }
