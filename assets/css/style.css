@@ -1052,55 +1052,94 @@ body{
 }
 /*----------------------------section-3 nutrition-page-----*/
 .crossfit-nutrition{
-  text-align: center; 
-  width:100%;
-  height: 100%;
-  margin-bottom: 50px;
-  text-transform:uppercase;
-  color: white;
-  padding-top: 5px;
-  padding-bottom:10px;
+   text-align: center; 
+   width:100%;
+   height: 100%;
+   margin-bottom: 50px;
+   text-transform:uppercase;
+   color: white;
+   padding-top: 5px;
+   padding-bottom:10px;
 }
+
 .power{
- letter-spacing: 4px;
+   letter-spacing: 4px;
+
 }
+
 .food-heal{
-  text-transform: capitalize;
+   text-transform: capitalize;
+
 }
 
 /*-----------------------------section-4 nutrition-page----*/
 
 .crossfit-100-recipies{
- position: absolute;
- top:150px;
+   position: absolute;
+   top:150px;
  
 }
 
- .recipies-image{
- background-image:url("../images/100-recipes.jpg");
- height:500px;
- width:100%;
- background-size: cover;
- background-position:center;
- position: relative;
+.recipies-image{
+   background-image:url("../images/100-recipes.jpg");
+   height:500px;
+   width:100%;
+   background-size: cover;
+   background-position:center;
+   position: relative;
 
 
 }
 
 .nutrition-recipies{
-text-transform: uppercase;
-letter-spacing: 4px;
-color: white;
-text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: white;
+  text-align: center;
 
 
 }
+
 .recipies-button{
-position: absolute;
-left:200px;
-margin-top: 30px;
-width: 150px;
-padding:10px;
-text-transform: capitalize;
+   position: absolute;
+   left:200px;
+   margin-top: 30px;
+   width: 150px;
+   padding:10px;
+   text-transform: capitalize;
 
 }
+
+/*------------------------------------about-us page----------*/
+
+#about-us-background{
+   background-image: url("../images/about-page.jpg");
+   background-repeat:repeat;
+   background-position: center;
+   background-size: cover;
+   width: 100%;
+   height: 100vh;
+  
+}
+
+.about-us-heading{
+   margin-top: 150px;
+   text-align: center;
+   text-transform: uppercase;
+   letter-spacing: 4px;
+   color: white;
+   animation-name: gold-1;
+   animation-duration: 5s;
+   animation-fill-mode:forwards;
+ 
+
+}
+ 
+@keyframes gold-1 {
+   from{
+     transform: scale(0.5);
+   }
+   to{
+     transform: scale(1);
+   }
+ }
