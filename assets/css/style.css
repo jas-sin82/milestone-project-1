@@ -1216,3 +1216,104 @@ body{
    justify-content: center;
    
 }
+
+.contact-page{
+   display: flex;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   padding-top: 50px;
+   padding-bottom:50px;
+   width:100%;
+   height:100%;
+   justify-content: space-evenly;
+ 
+}
+
+.contact-heading{
+   margin-top: 50px;
+   text-transform:uppercase;
+   color: white;
+   text-align: center;
+
+}
+
+.contact-page-right{
+   flex-basis: 50%;
+   
+}
+ 
+.contact-us{
+   margin-bottom: 30px;
+   text-transform: uppercase;
+   color: white;
+}
+
+.contact-page-lef{
+   flex-basis: 50%;
+ 
+}
+ 
+.uppercase-contact{
+   display:flex;
+   justify-content: space-between;
+   margin-bottom:20px;
+ 
+}
+
+.full-name  {
+   flex-basis: 40%;
+   color:white;
+}
+
+.last-name  {
+   flex-basis: 40%;
+   color:white;
+}
+
+input[type=text],input[type=email]{
+   width:100%;
+ 
+}
+  
+label{
+   color: white;
+   font-size: 16px;
+}
+
+textarea {
+   width:100%;
+   padding:20px;
+   box-sizing: border-box;
+  
+}
+
+input[type=submit]{
+   width: 20%;
+   height:40px;
+   text-align: center;
+}
+
+.reach-us{
+   color:white;
+   text-transform: uppercase;
+}
+
+.street-1{
+   color: white;
+   text-transform: capitalize;
+   margin-top:30px;
+}
+
+table{
+   margin-top: 30px;
+   color:white;
+}
+
+.c-service{
+   padding-right:20px;
+   padding-top: 10px;
+}
+
+.google-map{
+   margin-top:40px;
+}
