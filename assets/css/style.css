@@ -106,15 +106,15 @@ body{
  
 #container-1{
    width:100%;
-   height: 850px;
+   height: 700px;
    position: relative;
 }
 
 
 .hero-image{
    width:100%;
-   height:100%;
-   background-image: url("../images/home-page-hero.jpg");
+   height:700px;
+   background-image: url("../images/hero-image.jpg");
    background-position: center;
    background-size: cover;
    clear:both;
@@ -137,7 +137,7 @@ body{
 
 .hero-text {
    position: absolute;
-   top: 400px;
+   top: 250px;
    left: 100px;
    text-transform: uppercase;
    letter-spacing: 4px;
@@ -193,11 +193,12 @@ body{
    text-align: center; 
    width:100%;
    height: 100%;
-   margin-top: 70px;
+   margin-top: 60px;
    text-transform:uppercase;
    color: white;
    padding-top: 5px;
    padding-bottom:5px;
+   letter-spacing: 3px ;
    
 }
 
@@ -384,6 +385,7 @@ body{
 }
 .phone-call{
     text-transform: capitalize;
+    margin-top:20px;
 }
 
 /*-------------------------------media query---*/ 
@@ -420,6 +422,12 @@ body{
 .section-heading{
     margin-left:80px;
    
+}
+/*------------------------footer-media-query------*/
+
+.footer-3 {
+   display:none;
+    
 }
 
 /*---------------------membership page media query----*/
@@ -549,55 +557,12 @@ body{
 }
 
 /*----------------------footer media query----------*/
-      
-.container-2{
-    justify-content: center;
-    display: block;
-    flex-direction:row;
-    text-align:  center;
-        
-}
-      
-.container-2 .footer-1 {
-    text-align: start;
-         
-}
-
-.container-2 .footer-2{
-       
-    text-align: center;
-       
-}
-
-.container-2 .footer-3{
-      
-    text-align: end;
-       
-}
     
-.footer-2 ul li :hover::after{
-    width: 20%;
-      
+.uppercase{
+  font-size: 20px;
+
 }
-
-.container-2 .footer-3 .copy-right{
-    text-align: end;
-}
-
-.footer-3 hr{
-    display: none;
-}
-
-.footer-2 hr{
-    display: none;
-}
-
-.footer-1 hr{
-    display: none;
-    
-}
-
-
+  
 }
 
 @media (max-width: 576px){
@@ -657,123 +622,88 @@ body{
 /*-----------------------------footer-media query-----*/
 
 .container-2{
-   width: 100%;
-   height: 100%;
-   justify-content: space-between;
-  
-}
-  
-.container-2 .footer-2{
-   text-align: start;
-
+   width:100%;
+   height:100%;
 }
 
-.container-2 .footer-3 .copy-right{
-   text-align: end;
-   margin-top: 20px;
- 
-}
-
-.container-2 .footer-1 {
+.footer-1 {
    display: none;
 
 }
- 
+  
 }
     
-
-
 
 /*--------------------------footer----------------*/
 
 .container-2{
-   display: flex;
+   display:flex;
    margin-top: 50px;
-   justify-content: space-around;
-   background-repeat: no-repeat;
-   background-size: cover;
-   text-transform:capitalize;
-   justify-content: space-between ;
-   text-align:justify;
-   padding:50px;
+   padding-top: 50px;
+   padding-bottom:50px;
    width:100%;
-   height:350px;
-   background-color:white;
-   background-image: url("../images/footer-image.jpg");
-   position: relative;
-   overflow:hidden;
- 
+   height:100%;
+   background-color:rgba(19, 26, 26, 0.973);
+   justify-content: space-around;
+  
 }
 
- .footer-2 ul li{
+.footer-2 ul li{
    list-style: none;
   
- }
+}
 
- .footer-2 ul li a{
-    text-decoration: none;
-    color:#1a2a6c;
- }
+.footer-2 ul li a{
+   text-decoration: none;
+   color:#6dd5ed;
 
- .footer-links{
-    padding: 8px;
+}
+
+.footer-links{
+   padding: 8px;
  
 }
  
- 
- .footer-2 ul li::after{
-    content: '';
-    background: red;
-    width: 0px;
-    height: 1px;
-    display: block;
-    transition: 0.6s ;
- 
-}
-
-.footer-2 ul li:hover::after{
-    width: 70%;
-}
-
 .customer {
-    line-height:1.5;
+   line-height:1.5;
+   color:white;
 
 }
 
 .social-link{
-    margin-top: 20px;
+   margin-top: 20px;
    
 }
 
 .social-link .social{
-    padding: 10px;
-  
+   padding: 10px;
   
 }
 
+
 .social-link .social a{
    text-decoration: none;
+
 }
 
 .social-link .social a i{
    font-size: 20px;
  
-
 }
 
 .color-1 a i {
-    color:blue;
+   color:blue;
    
 }
 
-color-2 a i {
+.color-2 a i {
    color: #36D1DC;
 
 }
 
-
 .color-3 a i{
    color: red;
+
 }
 
 .color-4 a i{
@@ -784,31 +714,46 @@ color-2 a i {
 .copy-right{
    text-align: center;
    font-size: small;
-   margin-top:10px;
+   margin-top:30px;
    text-align: justify;
   
 }
- .footer-1 hr {
-    width:50%;
-    background-color: white;
-  
-}
-.footer-2 hr {
-    background-color: white;
-   
+
+.uppercase{
+   color:white;
+   text-transform: capitalize;
+   margin-bottom:30px;
 }
 
-.footer-3 hr {
-    width:50%;
-    background-color: white;
-  
+.crossfit-start{
+   color:white;
+
+}
+
+.street{
+  color:white;
+
+}
+
+.crossfit-offers{
+   margin-top:-20px;
+
+}
+
+.uppercase-1{
+   color:white;
+
+}
+
+.copy-right{
+   color:white;
+
 }
 
 /*---------------------------membership-page------------*/
 
 #membership-page{
-   background-image: url(../images/premium-card.png);
-   background-color:#283048;
+   background-image: url("../images/home-page-hero.jpg");
    width:100%;
    min-height: 100%;
    background-attachment: fixed;
@@ -818,8 +763,8 @@ color-2 a i {
 
 .hero-image-membership{
    width:100%;
-   height:800px;
-   background-image: url("../images/group-training.jpg");
+   height:700px;
+   background-image: url("../images/home-page-hero-1.jpg");
    background-position: center;
    background-size: cover;
    clear:both;
@@ -829,19 +774,16 @@ color-2 a i {
 .hero-text-membership {
    position: absolute;
    top: 350px;
-   font-weight: 800;
    text-transform: uppercase;
    letter-spacing: 4px;
    color: white;
-   font-weight: 400px;
    font-family: 'Oswald', sans-serif;
-   text-align: center;
+   text-align: justify;
   
 }
  
-.hero-text-membership span{
-   color:rgb(228, 77, 23);
-}
+
+
 
  /*---------------------------section-2---------------*/
 
