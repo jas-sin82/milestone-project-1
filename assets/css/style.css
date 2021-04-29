@@ -556,6 +556,31 @@ body{
   font-size: 20px;
 }
 
+.about-us-heading h1{
+   font-size:large;
+   width:100%;
+      
+}
+      
+.reach-us{
+   margin-top: 40px;
+        
+}
+     
+.contact-page{
+   flex-direction: column;
+   justify-content: space-around;
+   width:100%;
+   align-items: center;
+      
+}
+      
+.google-map{
+   width:400px;
+   height:100px;
+      
+}
+
 /*----------------------footer media query----------*/
     
 .uppercase{
@@ -604,6 +629,11 @@ body{
  .hero-text-2  .hard-work{
     font-size: large;
   
+}
+.google-map{
+  width:200px;
+  height:100px;
+
 }
 
 /*---------------------------------membership-page-media query-------*/
