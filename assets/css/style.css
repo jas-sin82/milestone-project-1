@@ -41,7 +41,7 @@ body{
 }
 
 .logo span {
-   font-size: xxx-large;  
+   font-size: 50px;  
    color:rgb(228, 77, 23);
    font-weight: 700;
    font-family: 'Zen Dots', cursive;
@@ -396,7 +396,7 @@ body{
 .nav-lists ul li{
     padding-right: 20px;
     padding-left: 10px;
-    font-weight:300px ;
+    
     
 }
 
@@ -411,7 +411,7 @@ body{
 .nav-lists ul li{
     padding-right: 0px;
     padding-left: 0px;
-    font-weight:300px ;
+   
     
 }
 
@@ -502,8 +502,7 @@ body{
     justify-content: space-around;
     text-align: center;
     position: relative;
-    background-color: black;
-      
+
 }
        
 .nav-lists ul  {
