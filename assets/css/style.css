@@ -174,17 +174,19 @@ body{
   
 }
 
-.button-btn a {
+.join-us > a {
 
    text-decoration: none;
    color: white;
-   padding:0px;
+   padding:8px;
 
-}
+} 
+
 .button-btn:hover{
   
    background-color: #4ca2cd;
    width:35%;
+   color:white;
   
 }
 /*---------------------------section-2-----*/
@@ -1278,11 +1280,7 @@ body{
    color: white;
 }
 
-.contact-page-lef{
-   flex-basis: 50%;
- 
-}
- 
+
 .uppercase-contact{
    display:flex;
    justify-content: space-between;
