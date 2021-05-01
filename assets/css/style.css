@@ -6,7 +6,6 @@
    margin: 0;
    padding: 0;
    font-family: 'Oswald', sans-serif;
-
 }
 
 body{
@@ -16,7 +15,7 @@ body{
    height: 100%;
 }
 
-/*-------------------------------------nav-bar---*/
+/*-------------------------------------nav-bar and index-page---*/
 
 
 .nav-bar{
@@ -102,7 +101,6 @@ body{
   
 }
 
-/*---------------------------------home-page-hero-image/ section-1------ */
  
 #container-1{
    width:100%;
@@ -158,7 +156,6 @@ body{
   
 } 
 
-/*-----------------------btn-button------*/
 
 .button-btn{
    position: absolute;
@@ -189,7 +186,7 @@ body{
    color:white;
   
 }
-/*---------------------------section-2-----*/
+
 
 .motivation {
    text-align: center; 
@@ -203,8 +200,6 @@ body{
    letter-spacing: 3px ;
    
 }
-
-/*---------------------------section-3-----*/
 
 .main-section{
    margin-top: 50px;
@@ -288,7 +283,6 @@ body{
 
 }
   
-/*----------------------------section-4------*/
 
 #container-2{
    width:100%;
@@ -352,8 +346,6 @@ body{
    
 }
 
-/*-------------------results--------------------*/
-
 .results{
   
    margin-top:100px;
@@ -368,8 +360,6 @@ body{
    margin-right:70px;
 }
 
-/*-----------------------------strategy-call-section---------------*/
-   
 
 .strategy-call{
     text-align: center; 
@@ -424,39 +414,10 @@ body{
     margin-left:80px;
    
 }
-/*------------------------footer-media-query------*/
 
 .footer-3 {
    display:none;
     
-}
-
-/*---------------------membership page media query----*/
-
-.container-membership{
-    flex-direction: column;
-    justify-content: space-between;
-      
-}
-
-.container-membership .membership-premium{
-    width:100%;
-    border:none;
-    margin-top:10px;
-      
-} 
-
-.container-membership .membership-silver{
-    width:100%;
-    border:none;
-    margin-top: 10px;
-    
-}
-   
-.container-membership .membership-gold{
-    width:100%;
-    border:none;
-    margin-top:10px;
 }
 
 /*--------------------------nutrition page media query--*/
@@ -490,8 +451,6 @@ body{
 
 } 
 
-
-
 @media (max-width: 768px){
     
 .nav-bar{
@@ -514,6 +473,11 @@ body{
 
 .heading-3{
     font-size: x-large;
+}
+
+.membership-silver{
+    margin-top: 20px;
+      
 }
   
 
@@ -560,8 +524,6 @@ body{
    margin-top:50px;
      
 }
-
-/*----------------------footer media query----------*/
     
 .uppercase{
   font-size: 20px;
@@ -602,21 +564,27 @@ body{
     margin-bottom: 20px;
   
 }
+
 .section-heading{
     margin-left:50px;
   
 }
- .hero-text-2  .hard-work{
-    font-size: large;
+
+.hero-text-2  .hard-work{
+   font-size: large;
   
 }
+
 .google-map{
-  width:200px;
-  height:100px;
+   width:200px;
+   height:100px;
 
 }
 
-/*---------------------------------membership-page-media query-------*/
+.heading-3{
+   margin-top:80px;
+
+}
 
 .crossfit-bar-text .hard-work{
    font-size:large;
@@ -628,8 +596,6 @@ body{
    text-align:center;
   
 }
-
-/*-----------------------------footer-media query-----*/
 
 .container-2{
    width:100%;
@@ -769,7 +735,6 @@ body{
    background-attachment: fixed;
 }
 
-/*----------------------------section-1-----------*/
 
 .hero-image-membership{
    width:100%;
@@ -792,10 +757,10 @@ body{
   
 }
  
+.orange{
+  color:orangered;
 
-
-
- /*---------------------------section-2---------------*/
+}
 
 .motivation-1{
    text-align: center; 
@@ -810,36 +775,24 @@ body{
  
 }
 
- .container-membership{
-   display: flex;
+.container-membership{
    margin-top: 50px;
-   margin-bottom: 80px;
-   justify-content: space-around;
-   background-repeat: no-repeat;
-   background-size: cover;
+   margin-bottom: 120px;
    text-transform:capitalize;
-   justify-content: space-between ;
-   text-align: center;
-   padding:50px;
    width:100%;
-   background-color:white;
   
- 
- }
+}
 
 .membership-premium{
-   border-radius: 10px;
-   background-image: url("../images/premium-card.jpg");
-   width:30%;
-   background-size: cover;
-   overflow: hidden;
+   border:none;
+   background-image: url(../images/about-page.jpg);
+   color: white;
    animation-name: premium;
    animation-duration: 5s;
    animation-fill-mode:forwards;
- 
+  
 }
-
-@keyframes premium {
+  @keyframes premium {
     from{
       transform: scale(0.5);
     }
@@ -848,21 +801,17 @@ body{
     }
   }
  
-
 .membership-silver{
-   border-radius: 10px;
-   background-image: url("../images/silver-members.jpg");
-   background-repeat: no-repeat;
-   background-size: cover;
-   overflow: hidden;
-   width: 30%;
+   border:none;
+   background-image: url(../images/about-page.jpg);
+   color:white;
    animation-name: silver-1;
    animation-duration: 5s;
    animation-fill-mode:forwards;
  
 }
 
- @keyframes silver-1 {
+@keyframes silver-1 {
     from{
       transform: scale(0.5);
     }
@@ -871,20 +820,18 @@ body{
     }
   }
     
-  
 .membership-gold{
-   border-radius: 10px;
-   background-image: url("../images/gold-members.jpg");
-   width:30%;
-   background-size: cover;
-   overflow: hidden;
-   animation-name: gold-1;
-   animation-duration: 5s;
-   animation-fill-mode:forwards;
+  background-image: url(../images/about-page.jpg);
+  color:white;
+  border:none;
+  animation-name: gold-1;
+  animation-duration: 5s;
+  animation-fill-mode:forwards;
+  margin-top: 20px;
  
 }
-  
-@keyframes gold-1 {
+
+ @keyframes gold-1 {
     from{
       transform: scale(0.5);
     }
@@ -892,16 +839,42 @@ body{
       transform: scale(1);
     }
   }
+   
+.membership-platinum{
+   margin-top: 20px;
+   background-image: url(../images/about-page.jpg);
+   color:white;
+   border:none;
+   animation-name: gold-1;
+   animation-duration: 5s;
+   animation-fill-mode:forwards;
+   
+}
 
-
-.monthly-cost{
-   color: white;
-   font-size: 20px;
+@keyframes gold-1 {
+      from{
+        transform: scale(0.5);
+      }
+      to{
+        transform: scale(1);
+      }
+    }
+     
+.heading-member{
+    margin-bottom: 20px;
   
 }
 
+.monthly-cost{
+    color:white;
+    font-size: 20px;
+  
+}
 
-  /*---------------------------------------section-3-----------*/
+.list-2{
+   padding:10px;
+  
+}
 
 .crossfit-bar-image{
    width:100%;
