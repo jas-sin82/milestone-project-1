@@ -420,35 +420,6 @@ body{
     
 }
 
-/*--------------------------nutrition page media query--*/
-
-.container-nutrition{
-   flex-direction: column;
-   justify-content: space-between;
-  
-}
-
-.container-nutrition .nutrition-starter{
-   width:100%;
-   border:none;
-   margin-top:10px;
-  
-} 
-
-.container-nutrition .nutrition-basic{
-   width:100%;
-   border:none;
-   margin-top: 10px;
-  
-  
-}
-.container-nutrition .nutrition-advanced{
-   width:100%;
-   border:none;
-   margin-top:10px;
-
-}
-
 } 
 
 @media (max-width: 768px){
@@ -478,6 +449,11 @@ body{
 .membership-silver{
     margin-top: 20px;
       
+}
+
+.nutrition-basic{
+    margin-top: 20px;
+     
 }
   
 
@@ -948,6 +924,15 @@ body{
    animation-duration: 5s;
    animation-fill-mode:forwards;
 }
+
+@keyframes gold-1 {
+      from{
+        transform: scale(0.5);
+      }
+      to{
+        transform: scale(1);
+      }
+    }
   
  
 .wellness-line{
@@ -955,31 +940,18 @@ body{
    background-color: orangered;
 }
 
-  
-/*---------------------------section-2---nutrition-page----*/
-
 .container-nutrition{
-   display: flex;
-   margin-top: -150px;
+   margin-top: -100px;
    margin-bottom: 80px;
-   justify-content: space-around;
-   background-repeat: no-repeat;
-   background-size: cover;
    text-transform:capitalize;
-   justify-content: space-between ;
-   text-align: center;
-   padding:50px;
-   width:100%;
-   background-color:white;
+   height:100%;
+  
 }
- 
-.nutrition-starter{
 
-   border-radius: 10px;
-   background-image: url("../images/premium-card.jpg");
-   width:30%;
-   background-size: cover;
-   overflow: hidden;
+.nutrition-starter{
+   background-image: url(../images/about-page.jpg);
+   color:white;
+   border:none;
    animation-name: nutrition-1;
    animation-duration: 7s;
    animation-fill-mode:forwards;
@@ -995,38 +967,46 @@ body{
   }
 }
 
+.nutrition-starter:hover{
+  background-image: url("../images/nutrition-hover.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+}
 
 .nutrition-basic{
-   
-   border-radius: 10px;
-   background-image: url("../images/silver-members.jpg");
+   background-image: url(../images/about-page.jpg);
+   color:white;
+   border:none;
+   animation-name: nutrition-1;
+   animation-duration: 7s;
+   animation-fill-mode:forwards;
+
+}
+
+@keyframes nutrition-1 {
+  from{
+    transform:rotate(30deg);
+  }
+  to{
+    transform: scale(1);
+  }
+}
+
+.nutrition-basic:hover{
+   background-image: url("../images/nutrition-hover-1.jpg");
+   background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
-   overflow: hidden;
-   width: 30%;
-   animation-name: nutrition-1;
-   animation-duration: 7s;
-   animation-fill-mode:forwards;
 
-}
-
-@keyframes nutrition-1 {
-  from{
-    transform:rotate(30deg);
-  }
-  to{
-    transform: scale(1);
-  }
-}
-  
+} 
     
 .nutrition-advanced{
-     
-   border-radius: 10px;
-   background-image: url("../images/gold-members.jpg");
-   width:30%;
-   background-size: cover;
-   overflow: hidden;
+   background-image: url(../images/about-page.jpg);
+   color:white;
+   border:none;
    animation-name: nutrition-1;
    animation-duration: 7s;
    animation-fill-mode:forwards;
@@ -1041,7 +1021,66 @@ body{
     transform: scale(1);
   }
 }
-/*----------------------------section-3 nutrition-page-----*/
+
+.nutrition-advanced:hover{
+   background-image: url("../images/nutrition-hover-1.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+
+.nutrition-extra-advanced{
+   background-image: url(../images/about-page.jpg);
+   color:white;
+   border:none;
+   animation-name: nutrition-1;
+   animation-duration: 7s;
+   animation-fill-mode:forwards;
+
+}
+
+@keyframes nutrition-1 {
+ from{
+   transform:rotate(30deg);
+ }
+ to{
+   transform: scale(1);
+ }
+}
+
+.nutrition-extra-advanced:hover{
+   background-image: url("../images/nutrition-hover.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.nutrition-advanced{
+   margin-top: 20px;
+
+}
+
+.nutrition-extra-advanced{
+   margin-top: 20px;
+
+}
+ 
+.heading-nutrition{
+   margin-bottom: 20px;
+
+}
+
+.one-time-payment{
+   color:white;
+   font-size: 20px;
+}
+
+.list-3{
+   padding:5px;
+
+}
+ 
 .crossfit-nutrition{
    text-align: center; 
    width:100%;
@@ -1062,8 +1101,6 @@ body{
    text-transform: capitalize;
 
 }
-
-/*-----------------------------section-4 nutrition-page----*/
 
 .crossfit-100-recipies{
    position: absolute;
