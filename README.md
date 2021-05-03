@@ -124,6 +124,170 @@ each webpage  easily and smoothly will navigate user to their destination.
 
 ![screenshort](mock-images/contact-page.png)
 
+# Surface
+
+## colors 
+
+Color used in a project 
+
+  * Font-Color
+    
+    *  white
+
+    *  orangered 
+     
+    *  #6dd5ed
+
+    *  rgb(228, 77, 23)
+
+ *  Background-Color 
+
+    * rgb(19, 26, 26, 0.973)
+
+    * white
+
+ ## Fonts used in project 
+
+  * Font-Family 
+
+    * font-family: 'Oswald', sans-serif;
+
+    * font-family: 'Zen Dots', cursive;
+
+##  Images 
+
+ some of Images upload from google images [google-images](https://www.google.se/search?q=fitness+images&sxsrf=ALeKk01h26nfJNxMvj_uz38YHq6Ov_cBGQ:1620046287720&source=lnms&tbm=isch&sa=X&ved=2ahUKEwik1P7bxq3wAhUPAxAIHdjaBVMQ_AUoAXoECAEQAw&biw=1920&bih=937)  
+and some of them from  unspalsh website [unspalash](https://unsplash.com)
+
+# Features
+
+ Website consists of 5 pages and all the web page function good. Each webpage contains diffrent contents.
+
+  ## Navigation-Bar 
+  
+  Navigation bar has four links each links work completely and Crossfit logo on a left side of navigation bar which is link to the home page.
+
+
+  * Home 
+
+  * Membership 
+
+  * Nutrition 
+
+  * About Us 
+
+  ## Cards 
+
+  Each page has own card section
+
+  *  Transformation section  (Home page) 
+
+  *  Membership Plan ( Membership page)
+  
+  *  Nutrition Plan ( Nutrition page)
+
+  ## Footer
+
+  * Footer has divided in to 4 section  first section about customer service. 
+
+  * 2nd section has 4 links which are completely work.
+    
+     * Membership 
+
+     * Nutrition 
+
+     *  About Us
+
+     *  Contact 
+
+  * 3rd section about company background.
+
+  *  4th and last section address and social links.
+
+
+  ## Future development
+
+  * First I want create a Login page so user can login with user name and password so they can get all details just by one login. 
+
+  * The next development will be one extra html page which will contain price of crossfit bar drinks.
+   
+  *  Payment system so user will be able to  pay easily by online payments for Zoom classes and Nutrition packages as well.
+  
+  
+  # Technology used in a Project
+
+  ## HTML 
+
+  * To create whole structure of project.
+
+  ## CSS 
+
+  * TO style the whole structure of project.
+
+  ## Bootstrap & Media Query 
+
+  * To make it responsive on all the devices such as Desktop , Ipad  and Mobile.
+
+  ## Font-Awesome  
+
+  * Use for Icon links and Icon .
+
+  ## Wireframes
+   
+   * Use balsamiq as a wireframe  tool.
+
+   ## Google Font 
+
+   *  To make structure beautiful 
+
+   ## Github 
+
+   * To keep project safe and publically on cloud.
+
+   ## Gitpod 
+
+   Used as code editor to create my project. 
+
+
+  ##  Functionality Test 
+
+ *   This whole project has been tested on different devices such as Desktop,Ipad, on diffrent Mobiles Iphone x, Iphone 6 , Samsung Note 20.
+ 
+ *    Project has been tested on diffrent browser as well  such as Google Chrome and Microsoft Edge.
+
+
+  ## Performance Testing 
+
+  I have used lighthouse tool to check the performance of website. Here is link [Lighthouse](https://developers.google.com)
+
+   
+   ![screenshort](mock-images/testing-performance.png)
+
+   ![screenshort](mock-images/testing-performance-2.png) 
+
+   ![screenshort](mock-images/testing-performance-3.png)
+
+   ![screenshort](mock-images/testing-performance-4.png)
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   
+   
+ 
+
+    
+
+
 
 
 
