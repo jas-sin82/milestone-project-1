@@ -320,7 +320,7 @@ Your site is published at https://jas-sin82.github.io/milestone-project-1/
   
   ## To finish this project I have used [Code Institute gitpod full template](https://github.com/Code-Institute-Org/gitpod-full-template) 
 
-  #  Some more Screenshots of my project 
+  #  Screenshots of complete project 
 
 
   ![screenshot](mock-images/screenshot-membership.png)
