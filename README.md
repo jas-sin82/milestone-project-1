@@ -68,9 +68,53 @@ each webpage  easily and smoothly will navigate user to their destination.
   on some discounts to all of their customers, one of the best thing crossfit offers thats is  4 membership cards each card contains pile of benefits to thier customers on 
   reasonable prices and much more such as interior, Nutrition coaching packages and we provide the best environment to perform a exercise.
 
-# User Desire
+## User Desire
 
-## New user desire
+### New User Desire
+
+   * New user will find easily the right destination because of navigation links provided in  nav bar  and footer as well which will lead new 
+     user direct to their destination page.
+
+   * Easily to find contact informatiom by 2 ways one is footer their user can find all contact  in detail and  2nd one is just click on contact link inside footer will lead 
+     user to contact page.
+
+   *  The apparent information given about the packages and package price which will help new user to choose suitable one.
+
+ ###   Returning User Desire
+
+   *  User is able to contact their dietitian/trainer through call or messages.
+
+   *  User is able to check weather their is any empty indvidual training session by just simple call , email or contact form.
+
+   *  User can uppgrade their membership(to any level) any time just simple call , Email or through contact form as well.
+
+
+## User Stories  
+
+### New Customer 
+
+   *  New user wish to know about Crossfit-bar such as how much discount or is their any complimentary drinks inside membership.
+
+   *  New user would like to  know about trainers/dietitian qualification before the choose membership plan or Nutrition plan.
+
+   *  New user want know is there zoom classes inside any particular membership.
+
+### Returning Customer  
+
+   * User need to direct contact to trainer to know more about (schedule) training session.
+
+   *  User has a platinum mebership( platinum mebership offer to bring a friend/family member 2 times / month (completely free) & user want to know 
+      is there any specfic time or day or just any time.   
+
+   *  User want to uppgrade his/her Nutrition plan. 
+
+
+# Wireframes of website
+
+ ### I used a balsamiq to create a wireframe. Here is link [balsamiq](https://www.balsamiq.com/)
+
+
+    
 
 
 
