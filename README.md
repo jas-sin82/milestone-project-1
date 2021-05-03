@@ -12,16 +12,16 @@ each webpage  easily and smoothly will navigate user to their destination.
 
  ---
 
-## Screenshoots of project 
+## Screenshots of project 
 
 # Desktop, Ipad & Mobile
   
 
-![screenshort](mock-images/desktop.png)
+![screenshot](mock-images/desktop.png)
 
-![screenshort](mock-images/ipad.png)
+![screenshot](mock-images/ipad.png)
 
-![screenshort](mock-images/mobile.png)
+![screenshot](mock-images/mobile.png)
 
 
  # Highlights
@@ -56,7 +56,7 @@ each webpage  easily and smoothly will navigate user to their destination.
 
     * [Credits](#credits)
 
-    * [Screenshorts of complete project](#screenshorts-of-complete-project)
+    * [Screenshots of complete project](#screenshorts-of-complete-project)
 
        
 
@@ -114,15 +114,15 @@ each webpage  easily and smoothly will navigate user to their destination.
  ### I used a balsamiq to create a wireframe. Here is link [balsamiq](https://www.balsamiq.com/)
  
  
-![screenshort](mock-images/home-page.png)
+![screenshot](mock-images/home-page.png)
     
-![screenshort](mock-images/membership-page.png)
+![screenshot](mock-images/membership-page.png)
 
-![screenshort](mock-images/nutrition-page.png)
+![screenshot](mock-images/nutrition-page.png)
 
-![screenshort](mock-images/about-page.png)
+![screenshot](mock-images/about-page.png)
 
-![screenshort](mock-images/contact-page.png)
+![screenshot](mock-images/contact-page.png)
 
 # Surface
 
@@ -261,23 +261,83 @@ and some of them from  unspalsh website [unspalash](https://unsplash.com)
   I have used lighthouse tool to check the performance of website. Here is link [Lighthouse](https://developers.google.com)
 
    
-   ![screenshort](mock-images/testing-performance.png)
+   ![screenshot](mock-images/testing-performance.png)
 
-   ![screenshort](mock-images/testing-performance-2.png) 
+   ![screenshot](mock-images/testing-performance-2.png) 
 
-   ![screenshort](mock-images/testing-performance-3.png)
+   ![screenshot](mock-images/testing-performance-3.png)
 
-   ![screenshort](mock-images/testing-performance-4.png)
+   ![screenshot](mock-images/testing-performance-4.png)
+
+  ## Code Validation  
+
+  I have checked up the validity of all the  Html webpages and CSS file  
+
+   * [The W3C Markup Validation Service](https://validator.w3.org)
+
+   * [The W3C CSS Validation Service ](https://jigsaw.w3.org)
+
+  
+  # Deployment
+
+   I used a Github pages to deployed my project. As I mentioned Above I have Used Gitpod as a code editor to create my project. To commit and push my code I have used Git control version 
+   
+   to save my project on Github.
+
+   ###  HOw to deploy project on Github 
+
+  * First we need to login in our account on Github.
+
+  * Second  step we need to choose the repository to deploy.
+
+  * 3rd  step we need to  go to setting and find git pages.
+
+  * 4th step we need to choose branch in my case I have Master branch and then need to click on  save  and finally we will see our webpage will deploy.
 
 
+Your site is published at https://jas-sin82.github.io/milestone-project-1/
+
+# Credits
+
+ ## Contents 
+
+  *  70 % of contents of my project is from 
+
+  *  https://www.armourycoachingstudio.co.uk/
+
+  *  https://www.mypersonaltrainerwebsite.com
+
+  *  https://www.markpersonaltraining.com/
 
 
+  ##   Hints & Ideas 
+
+   *  W3Schools https://www.w3schools.com
+
+   *  Bootstrap 4.3.1 https://getbootstrap.com 
 
 
+  
+  ## To finish this project I have used [Code Institute gitpod full template](https://github.com/Code-Institute-Org/gitpod-full-template) 
+
+  #  Some more Screenshots of my project 
 
 
+  ![screenshot](mock-images/screenshot-membership.png)
+  
+  ![screenshot](mock-images/screenshot-membership-2.png)
 
+  ![screenshot](mock-images/screenshot-membership-1.png)
 
+  ![screenshot](mock-images/Screenshot-contact-1.png)
+
+  ![screenshot](mock-images/Screenshot-membership-4.png)
+
+  ![screenshot](mock-images/Screenshot-contact-3.png)
+
+  ![screenshot](mock-images/Screenshot-about-1.png)
+
+  ![screenshot](mock-images/Screenshot-about.png)
 
 
    
