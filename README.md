@@ -112,15 +112,17 @@ each webpage  easily and smoothly will navigate user to their destination.
 # Wireframes of website
 
  ### I used a balsamiq to create a wireframe. Here is link [balsamiq](https://www.balsamiq.com/)
-
-
+ 
+ 
+![screenshort](mock-images/home-page.png)
     
+![screenshort](mock-images/membership-page.png)
 
+![screenshort](mock-images/nutrition-page.png)
 
+![screenshort](mock-images/about-page.png)
 
-
-
-
+![screenshort](mock-images/contact-page.png)
 
 
 
