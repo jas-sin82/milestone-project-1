@@ -28,7 +28,7 @@ each webpage  easily and smoothly will navigate user to their destination.
 
  * [User Experience (UX)](#User-experience-UX)
   
-    * [business prospective](#business-prospective)
+    * [Business Prospective](#business-prospective)
     
     * [User Desire](#user-desire)
       
@@ -52,7 +52,30 @@ each webpage  easily and smoothly will navigate user to their destination.
 
         * [ Performance Testing ](#performance-testing)
 
+    * [Deployment](#Deployment)    
+
+    * [Credits](#credits)
+
+    * [Screenshorts of complete project](#screenshorts-of-complete-project)
+
        
+
+ # User Experience (UX)
+
+ ## Business Prospective
+
+  As business prospective this product has some unique offers to their custromers & toward potential customers as well such as crossfit offers crossfit-bar drinks 
+  on some discounts to all of their customers, one of the best thing crossfit offers thats is  4 membership cards each card contains pile of benefits to thier customers on 
+  reasonable prices and much more such as interior, Nutrition coaching packages and we provide the best environment to perform a exercise.
+
+# User Desire
+
+## New user desire
+
+
+
+
+
 
 
 
