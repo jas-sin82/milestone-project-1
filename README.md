@@ -32,9 +32,9 @@ each webpage  easily and smoothly will navigate user to their destination.
     
     * [User Desire](#user-desire)
       
-       * [New user desire ](new-user-desire)
+       * [New user desire ](#new-user-desire)
        
-       * [Returning user desire](returning-user-desire)
+       * [Returning user desire](#returning-user-desire)
 
     * [User Stories](#user-stories)
 
@@ -48,7 +48,7 @@ each webpage  easily and smoothly will navigate user to their destination.
 
     * [ Functionality Test ](#functionality-test)
            
-        * [Code Validation Test](#Code-validation-test)
+        * [ Code Validation Test ](#code-validation-test)
 
         * [ Performance Testing ](#performance-testing)
 
@@ -56,7 +56,7 @@ each webpage  easily and smoothly will navigate user to their destination.
 
     * [Credits](#credits)
 
-    * [Screenshots of complete project](#screenshorts-of-complete-project)
+    * [Screenshots of complete project](#screenshots-of-complete-project)
 
        
 
@@ -88,6 +88,7 @@ each webpage  easily and smoothly will navigate user to their destination.
 
    *  User can uppgrade their membership(to any level) any time just simple call , Email or through contact form as well.
 
+[Back to Highlights ](#highlights)
 
 ## User Stories  
 
@@ -108,6 +109,7 @@ each webpage  easily and smoothly will navigate user to their destination.
 
    *  User want to uppgrade his/her Nutrition plan. 
 
+ [Back to Highlights ](#highlights)
 
 # Wireframes of website
 
@@ -158,6 +160,8 @@ Color used in a project
 
  some of Images upload from google images [google-images](https://www.google.se/search?q=fitness+images&sxsrf=ALeKk01h26nfJNxMvj_uz38YHq6Ov_cBGQ:1620046287720&source=lnms&tbm=isch&sa=X&ved=2ahUKEwik1P7bxq3wAhUPAxAIHdjaBVMQ_AUoAXoECAEQAw&biw=1920&bih=937)  
 and some of them from  unspalsh website [unspalash](https://unsplash.com)
+
+[Back to Highlights ](#highlights)
 
 # Features
 
@@ -213,6 +217,7 @@ and some of them from  unspalsh website [unspalash](https://unsplash.com)
    
   *  Payment system so user will be able to  pay easily by online payments for Zoom classes and Nutrition packages as well.
   
+  [Back to Highlights ](#highlights)
   
   # Technology used in a Project
 
@@ -248,6 +253,7 @@ and some of them from  unspalsh website [unspalash](https://unsplash.com)
 
    Used as code editor to create my project. 
 
+ [Back to Highlights ](#highlights)
 
   ##  Functionality Test 
 
@@ -269,7 +275,7 @@ and some of them from  unspalsh website [unspalash](https://unsplash.com)
 
    ![screenshot](mock-images/testing-performance-4.png)
 
-  ## Code Validation  
+  ## Code Validation Test 
 
   I have checked up the validity of all the  Html webpages and CSS file  
 
@@ -277,7 +283,8 @@ and some of them from  unspalsh website [unspalash](https://unsplash.com)
 
    * [The W3C CSS Validation Service ](https://jigsaw.w3.org)
 
-  
+  [Back to Highlights ](#highlights)
+
   # Deployment
 
    I used a Github pages to deployed my project. As I mentioned Above I have Used Gitpod as a code editor to create my project. To commit and push my code I have used Git control version 
@@ -295,11 +302,11 @@ and some of them from  unspalsh website [unspalash](https://unsplash.com)
   * 4th step we need to choose branch in my case I have Master branch and then need to click on  save  and finally we will see our webpage will deploy.
 
 
-Your site is published at https://jas-sin82.github.io/milestone-project-1/
+   Your site is published at https://jas-sin82.github.io/milestone-project-1/ 
 
 # Credits
 
- ## Contents 
+  ## Contents 
 
   *  70 % of contents of my project is from 
 
@@ -320,8 +327,9 @@ Your site is published at https://jas-sin82.github.io/milestone-project-1/
   
   ## To finish this project I have used [Code Institute gitpod full template](https://github.com/Code-Institute-Org/gitpod-full-template) 
 
-  #  Screenshots of complete project 
+   # Screenshots of complete project
 
+  [Back to Highlights ](#highlights)
 
   ![screenshot](mock-images/screenshot-membership.png)
   
@@ -339,7 +347,7 @@ Your site is published at https://jas-sin82.github.io/milestone-project-1/
 
   ![screenshot](mock-images/Screenshot-about.png)
 
-
+  [Back to Highlights ](#highlights)
    
    
    
