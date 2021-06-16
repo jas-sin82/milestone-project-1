@@ -25,7 +25,9 @@ body{
    justify-content: space-around;
    text-align: center;
    position: relative;
-  
+   background-color: black;
+   position: fixed;
+   z-index: 1;
 }
 
 .logo {
