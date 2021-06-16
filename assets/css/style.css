@@ -150,7 +150,7 @@ body{
    right:0;
    bottom:0;
    left:0;
-   opacity: 0.5;
+   opacity: 0.4;
  }
 
 .hero-text {
@@ -309,7 +309,7 @@ body{
    right:0;
    bottom:0;
    left:0;
-   opacity: 0.5;
+   opacity: 0.3;
 }
 
 .hero-text-2 {
@@ -321,7 +321,7 @@ body{
    font-family: 'Oswald', sans-serif;
    letter-spacing: 4px;
    text-align: left;
-
+   
 }
   
 .hero-text-2 span{
@@ -383,6 +383,8 @@ body{
 }
 .call{
     letter-spacing: 4px;
+    color:orangered;
+    opacity: 0.8;
 }
 .phone-call{
     text-transform: capitalize;
@@ -623,8 +625,13 @@ body{
 
 .footer-2 ul li a{
    text-decoration: none;
-   color:#6dd5ed;
+   color:white;
 
+}
+
+.footer-2 ul li .active{
+   color: #26D0CE;
+ 
 }
 
 .footer-links{
@@ -660,22 +667,22 @@ body{
 }
 
 .color-1 a i {
-   color:blue;
+   color:white;
    
 }
 
 .color-2 a i {
-   color: #36D1DC;
+   color: white;
 
 }
 
 .color-3 a i{
-   color: red;
+   color:white;
 
 }
 
 .color-4 a i{
-   color: #89253e;
+   color: white;
 
 }
 
@@ -684,13 +691,14 @@ body{
    font-size: small;
    margin-top:30px;
    text-align: justify;
-  
+   color:white;
 }
 
 .uppercase{
-   color:white;
+   color:orangered;
    text-transform: capitalize;
    margin-bottom:30px;
+   opacity:0.7 ;
 }
 
 .crossfit-start{
