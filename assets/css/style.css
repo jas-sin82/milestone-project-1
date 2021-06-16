@@ -96,8 +96,13 @@ body{
    width: 100%;
 }
 
-.nav-lists ul li a:active{
-   color:#6dd5ed;
+.nav-lists ul li a:hover{
+   color:#1FA2FF;
+  
+}
+  
+.nav-lists ul li .active{
+    color: #26D0CE;
   
 }
 
