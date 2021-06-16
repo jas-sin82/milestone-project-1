@@ -127,7 +127,9 @@ body{
    animation-name: hero-image;
    animation-duration: 7s;
    animation-fill-mode:forwards;
- 
+   position: absolute;
+   top:70px;
+   bottom:70px;
 }
 
 @keyframes hero-image {
@@ -138,7 +140,18 @@ body{
       transform: scale(1);
     }
   }
-  
+
+.hero-image::before{
+   content: "";
+   display:block;
+   position:absolute;
+   background:black;
+   top:0;
+   right:0;
+   bottom:0;
+   left:0;
+   opacity: 0.5;
+ }
 
 .hero-text {
    position: absolute;
