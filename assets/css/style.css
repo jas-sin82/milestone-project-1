@@ -287,7 +287,7 @@ body{
    height: 800px;
    position: relative;
    margin-bottom: 50px;
-   margin-top:-80px;
+   margin-top:-40px;
 }
 
 .hero-image-2{
@@ -298,6 +298,18 @@ body{
    background-size: cover;
    clear:both;
   
+}
+
+.hero-image-2::before{
+   content: "";
+   display:block;
+   position:absolute;
+   background:black;
+   top:0;
+   right:0;
+   bottom:0;
+   left:0;
+   opacity: 0.5;
 }
 
 .hero-text-2 {
