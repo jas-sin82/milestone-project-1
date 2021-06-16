@@ -443,8 +443,17 @@ body{
     height: 70px;
     justify-content: space-around;
     text-align: center;
-    position: relative;
+    position: fixed;
 
+}
+.hero-image{
+    margin-top: -70px;
+      
+}
+      
+.motivation-home{
+    margin-top:-50px;
+      
 }
        
 .nav-lists ul  {
@@ -531,7 +540,7 @@ body{
     height: 120px;
     justify-content: space-around;
     text-align: center;
-    position: relative;
+    position: fixed;
     background-color: black;
   }
 
@@ -543,6 +552,16 @@ body{
     font-size: small;
     z-index:2;
    
+}
+
+.hero-image{
+    margin-top:50px;
+  
+}
+  
+.motivation-home{
+    margin-top:50px;
+ 
 }
  
 .button-btn{
@@ -590,16 +609,30 @@ body{
 .container-2{
    width:100%;
    height:100%;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
 }
+
+.copy-right{
+   display: flex;
+   text-align: center;
+   justify-content: center;
+}
+
+.uppercase{
+   margin-top: 30px;
+  
+}
+
 .container-membership{
     margin-left: 3px;
     
 }
 
-.footer-1 {
-   display: none;
 
-}
+
+
   
 }
     
