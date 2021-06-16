@@ -245,12 +245,12 @@ body{
 }
 
 .fa-utensils{
-   color:lightsalmon;
+   color:rgb(172, 63, 20);
  
 }
 
 .fa-dumbbell{
-   color:black;
+   color:#00d2ff;
  
 }
 
@@ -260,7 +260,7 @@ body{
 }
 
 .fa-user-friends{
-   color:royalblue;
+   color:#3a7bd5;
 
 }
 
@@ -276,9 +276,9 @@ body{
   
 .list-1{
    font-size: 16px;
-   font-weight: 400;
+   font-weight: 300;
    padding: 20px;
-
+   text-transform:initial;
 }
   
 
