@@ -977,14 +977,15 @@ body::before {
 
 .membership-premium {
    border: none;
-   background-image: url("../images/home-page-hero.jpg");
+   background-image: url("../images/about-page.jpg");
    color: white;
-   opacity: 0.7;
-   background-position: center;
+   opacity: 0.8;
+   border-top-left-radius: 50px;
+   border-bottom-right-radius: 50px;
    animation-name: premium;
    animation-duration: 5s;
    animation-fill-mode: forwards;
-
+   border:none;
 }
 
 @keyframes premium {
@@ -998,14 +999,15 @@ body::before {
 }
 
 .membership-silver {
-   background-image: url("../images/home-page-hero.jpg");
+   background-image: url("../images/about-page.jpg");
    color: white;
-   opacity: 0.7;
-   background-position: center;
+   opacity: 0.8;
+   border-top-left-radius: 50px;
+   border-bottom-right-radius: 50px;
    animation-name: silver-1;
    animation-duration: 5s;
    animation-fill-mode: forwards;
-
+   border:none;
 }
 
 @keyframes silver-1 {
@@ -1019,15 +1021,16 @@ body::before {
 }
 
 .membership-gold {
-   background-image: url("../images/home-page-hero.jpg");
+   background-image: url("../images/about-page.jpg");
    color: white;
-   opacity: 0.7;
-   background-position: center;
+   opacity: 0.8;
+   border-top-left-radius: 50px;
+   border-bottom-right-radius: 50px;
    animation-name: gold-1;
    animation-duration: 5s;
    animation-fill-mode: forwards;
    margin-top: 20px;
-
+   border:none;
 }
 
 @keyframes gold-1 {
@@ -1042,14 +1045,16 @@ body::before {
 
 .membership-platinum {
    margin-top: 20px;
-   background-image: url("../images/home-page-hero.jpg");
+   background-image: url("../images/about-page.jpg");
    color: white;
-   opacity: 0.7;
+   opacity: 0.8;
+   border-top-left-radius: 50px;
+   border-bottom-right-radius: 50px;
    background-position: center;
    animation-name: gold-1;
    animation-duration: 5s;
    animation-fill-mode: forwards;
-
+   border:none;
 }
 
 @keyframes gold-1 {
@@ -1088,6 +1093,18 @@ body::before {
    overflow: hidden;
 
 }
+
+.crossfit-bar-image::before{
+   content: "";
+   display:block;
+   position:absolute;
+   background:black;
+   top:0;
+   right:0;
+   bottom:0;
+   left:0;
+   opacity: 0.5;
+ }
 
 .crossfit-bar-text {
    position: absolute;
