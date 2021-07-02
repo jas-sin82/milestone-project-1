@@ -2,40 +2,40 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
 
-*{
+* {
    margin: 0;
    padding: 0;
    font-family: 'Oswald', sans-serif;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
    display: none;
 }
- 
-body{
-  
-   background-color:#ececec;
-   width:100%;
+
+body {
+
+   background-color: #ececec;
+   width: 100%;
    height: 100%;
 }
 
-body::before{
+body::before {
 
    content: "";
-   display:block;
-   position:absolute;
-   color:black;
-   top:0;
-   right:0;
-   bottom:0;
-   left:0;
+   display: block;
+   position: absolute;
+   color: black;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
    opacity: 0.5;
 }
 
 /*-------------------------------------nav-bar and index-page---*/
 
 
-.nav-bar{
+.nav-bar {
    display: flex;
    width: 100%;
    height: 70px;
@@ -49,126 +49,128 @@ body::before{
 
 .logo {
    position: absolute;
-   left:40px;
+   left: 40px;
    font-size: x-large;
    font-weight: 600;
    margin-top: 2px;
    text-transform: uppercase;
    letter-spacing: 4px;
- 
+
 }
 
 .logo span {
-   font-size: 50px;  
-   color:rgb(228, 77, 23);
+   font-size: 50px;
+   color: rgb(228, 77, 23);
    font-weight: 700;
    font-family: 'Zen Dots', cursive;
- 
-  
+
+
 }
 
-.nav-bar > a {
+.nav-bar>a {
    text-decoration: none;
-   color:whitesmoke;
-  
+   color: whitesmoke;
+
 }
 
 
 .nav-lists ul {
    position: absolute;
-   right:0px;
- 
+   right: 0px;
+
 }
 
 .nav-lists ul li {
-   display:inline-block;
+   display: inline-block;
    padding-right: 40px;
    font-size: inherit;
    list-style: none;
    padding-left: 0px;
    margin-top: 25px;
-  
+
 }
 
 .nav-lists ul li a {
    color: white;
-   text-decoration:none;
-    
+   text-decoration: none;
+
 }
 
 
-.logo :hover{
-   color:whitesmoke;
-  
+.logo :hover {
+   color: whitesmoke;
+
 }
+
 .nav-lists ul li::after {
    content: '';
    background: red;
    width: 0px;
    height: 1px;
    display: block;
-   transition: 0.6s ;
- 
+   transition: 0.6s;
+
 }
 
-.nav-lists ul li:hover::after{
+.nav-lists ul li:hover::after {
    width: 100%;
 }
 
-.nav-lists ul li a:hover{
-   color:#1FA2FF;
-  
-}
-  
-.nav-lists ul li .active{
-    color: #26D0CE;
-  
+.nav-lists ul li a:hover {
+   color: #1FA2FF;
+
 }
 
- 
-#container-1{
-   width:100%;
+.nav-lists ul li .active {
+   color: #26D0CE;
+
+}
+
+
+#container-1 {
+   width: 100%;
    height: 700px;
    position: relative;
 }
 
 
-.hero-image{
-   width:100%;
-   height:700px;
+.hero-image {
+   width: 100%;
+   height: 700px;
    background-image: url("../images/hero-image.jpg");
    background-position: center;
    background-size: cover;
-   clear:both;
+   clear: both;
    overflow: hidden;
    animation-name: hero-image;
    animation-duration: 7s;
-   animation-fill-mode:forwards;
+   animation-fill-mode: forwards;
    position: absolute;
-   top:70px;
-   bottom:70px;
+   top: 70px;
+   bottom: 70px;
 }
 
 @keyframes hero-image {
-    from{
+   from {
       transform: scale(0.5);
-    }
-    to{
-      transform: scale(1);
-    }
-  }
+   }
 
-.hero-image::before{
+   to {
+      transform: scale(1);
+   }
+}
+
+.hero-image::before {
    content: "";
-   display:block;
-   position:absolute;
-   background:black;
-   top:0;
-   right:0;
-   bottom:0;
-   left:0;
-   opacity: 0.4;
- }
+   display: block;
+   position: absolute;
+   background: black;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   opacity: 0.3;
+}
 
 .hero-text {
    position: absolute;
@@ -181,544 +183,610 @@ body::before{
 
 }
 
-.hero-text span{
-   color:rgb(228, 77, 23);
+.hero-text span {
+   color: rgb(228, 77, 23);
 }
 
-.hero-text hr{
+.hero-text hr {
    width: 70%;
    height: 1px;
-   background-color:orangered;
-   clear:both;
-  
-} 
+   background-color: orangered;
+   clear: both;
+
+}
 
 
-.button-btn{
+.button-btn {
    position: absolute;
    margin-top: 30px;
    margin-left: 100px;
    border-radius: 20px;
-   width:25%;
+   width: 25%;
    background: #44A08D;
    font-size: 16px;
    text-align: center;
    text-transform: uppercase;
    letter-spacing: 2px;
-  
+
 }
 
-.join-us > a {
+.join-us>a {
 
    text-decoration: none;
    color: white;
-   padding:8px;
+   padding: 8px;
 
-} 
+}
 
-.button-btn:hover{
-  
+.button-btn:hover {
+
    background-color: #4ca2cd;
-   width:35%;
-   color:white;
-  
+   width: 35%;
+   color: white;
+
 }
 
 
 .motivation {
-   text-align: center; 
-   width:100%;
+   text-align: center;
+   width: 100%;
    height: 100%;
    margin-top: 150px;
-   text-transform:uppercase;
-   color: white;
+   text-transform: uppercase;
+   color: black;
    padding-top: 5px;
-   padding-bottom:5px;
-   letter-spacing: 3px ;
-   
+   padding-bottom: 5px;
+   letter-spacing: 3px;
+
 }
 
-.main-section{
+.main-section {
    margin-top: 50px;
    margin-bottom: 100px;
    justify-content: space-around;
-   text-transform:capitalize;
-   height:100%;
+   text-transform: capitalize;
+   height: 100%;
 
 }
 
 
-.transform-1 ,.transform-2 ,.transform-3 , .transform-4  {
-   background-color:#29323c;
+.transform-1,
+.transform-2,
+.transform-3,
+.transform-4 {
+   background-color: #ececec;
    border: none;
-   color: white;
+   color: black;
 
 }
 
 
-.fas{
-   margin-bottom: 10px ;
+.fas {
+   margin-bottom: 10px;
 
 }
 
-.fa-utensils{
-   color:rgb(172, 63, 20);
- 
-}
-
-.fa-dumbbell{
-   color:#00d2ff;
- 
-}
-
-.fa-brain{
-   color:lightcoral;
+.fa-utensils {
+   color: rgb(172, 63, 20);
 
 }
 
-.fa-user-friends{
-   color:#3a7bd5;
+.fa-dumbbell {
+   color: #00d2ff;
 
 }
 
-.heading-1{
+.fa-brain {
+   color: lightcoral;
+
+}
+
+.fa-user-friends {
+   color: #3a7bd5;
+
+}
+
+.heading-1 {
    margin-top: 20px;
 
 }
 
 .division {
-   background-color: white;
- 
+   background-color: orangered;
+
 }
-  
-.list-1{
+
+.list-1 {
    font-size: 16px;
-   font-weight: 300;
+   font-weight: 500;
    padding: 20px;
-   text-transform:initial;
-}
-  
-
-#container-2{
-   width:100%;
-   height: 800px;
-   position: relative;
-   margin-bottom: 50px;
-   margin-top:-40px;
+   text-transform: initial;
 }
 
-.hero-image-2{
-   width:100%;
-   height:100%;
-   background-image: url("../images/our team.jpg");
+.hover-text {
+   text-align: center;
+   width: 90%;
+   height: 100%;
+   margin-top: -50px;
+   margin-bottom: 100px;
+   text-transform: uppercase;
+   color: white;
+   border: 2px solid black;
+   background-image: url("../images/home-page-hero.jpg");
    background-position: center;
-   background-size: cover;
-   clear:both;
-  
-}
-
-.hero-image-2::before{
-   content: "";
-   display:block;
-   position:absolute;
-   background:black;
-   top:0;
-   right:0;
-   bottom:0;
-   left:0;
-   opacity: 0.3;
+   padding-top: 20px;
+   padding-bottom: 40px;
+   letter-spacing: 3px;
+   border-top-left-radius: 70px;
+   border-bottom-right-radius: 70px;
+   border-bottom-left-radius: 20px;
+   border-top-right-radius: 20px;
+   border: none;
 }
 
 .hero-text-2 {
+   animation-name: hero-image;
+   animation-duration: 7s;
+   animation-fill-mode: forwards;
+
+}
+
+@keyframes hero-image {
+   from {
+      transform: scale(0.8);
+   }
+
+   to {
+      transform: scale(1);
+   }
+}
+
+.about-us-1 {
+
+   margin-top: 100px;
+
+
+}
+
+.crossfit-about {
+   color: black;
+}
+
+.crossfit-decade {
+   font-size: xx-large;
+   letter-spacing: 4px;
+   text-transform: uppercase;
+}
+
+.crossfit-founder {
+   text-transform: capitalize;
+
+}
+
+.crossfit-image {
+   width: 100%;
+
+}
+
+.about-us-2 {
+   margin-top: 100px;
+
+
+}
+
+.about-us-3 {
+   margin-top: 100px;
+   margin-bottom: 100px;
+
+
+}
+
+.crossfit-about-2 {
+   color: black;
+
+}
+
+
+#container-2 {
+   width: 100%;
+   height: 600px;
+   position: relative;
+   margin-bottom: 50px;
+   margin-top: -40px;
+}
+
+.hero-image-2 {
+   width: 100%;
+   height: 100%;
+   background-image: url("../images/our team.jpg");
+   background-position: center;
+   background-size: cover;
+
+
+}
+
+.hero-text-3 {
    position: absolute;
    top: 200px;
-   left:70px;
+   left: 70px;
    text-transform: uppercase;
    color: white;
    font-family: 'Oswald', sans-serif;
    letter-spacing: 4px;
-   text-align: left;
-   
-}
-  
-.hero-text-2 span{
-  
-   color:rgb(228, 77, 23);
-  
-}
-  
-.hero-text-2 hr{
-   width: 40%;
-   height: 1px;
-   background-color:orangered;
-   clear:both;
+
 
 }
-  
-.hero-text-2 h4{
-    
-   line-height: 2;
- 
-} 
-    
-.membership .btn{
+
+.hero-text-2 span {
+   color: rgb(228, 77, 23);
+}
+
+.hero-text-3 span {
+
+   color: rgb(228, 77, 23);
+}
+
+.membership {
    text-transform: capitalize;
-   width: 20%;
-    
-}
-
-.membership .btn:hover{
-   
-   background-color:#EF629F;
-   
-}
-
-.results{
-  
-   margin-top:100px;
+   background-color: orangered;
+   width: 150px;
+   border: none;
+   margin-bottom: -20px;
+   opacity: 0.8;
+   margin-right: 10px;
 
 }
 
-.section-heading{
+.results {
+
+   margin-top: 100px;
+
+}
+
+.section-heading {
    text-transform: uppercase;
    text-align: center;
-   padding-bottom:100px ;
-   color:white;
-   margin-right:70px;
+   padding-bottom: 100px;
+   color: black;
+   margin-right: 70px;
 }
 
 
-.strategy-call{
-    text-align: center; 
-    width:100%;
-    height: 100%;
-    margin-top: 60px;
-    text-transform:uppercase;
-    color: white;
-    padding-top: 5px;
-    padding-bottom:10px;
-}
-.call{
-    letter-spacing: 4px;
-    color:orangered;
-    opacity: 0.8;
-}
-.phone-call{
-    text-transform: capitalize;
-    margin-top:20px;
-}
-
-/*-------------------------------media query---*/ 
-
- @media (max-width: 1300px){
-
-.nav-lists ul li{
-    padding-right: 20px;
-    padding-left: 10px;
-    
-    
-}
-
-.logo{
-    left:10px;
-    font-size: medium;
-}
-
-}
-  
-@media (max-width: 1000px){
-.nav-lists ul li{
-    padding-right: 0px;
-    padding-left: 0px;
-   
-    
-}
-
-.logo{
-    left:10px;
-    font-size: medium;
-    
-}
-    
-.section-heading{
-    margin-left:80px;
-   
-}
-
-.footer-3 {
-   display:none;
-    
-}
-
-} 
-
-@media (max-width: 764px){
-    
-.nav-bar{
-    display: flex;
-    width: 100%;
-    height: 70px;
-    justify-content: space-around;
-    text-align: center;
-    position: fixed;
-
-}
-.hero-image{
-    margin-top: -70px;
-      
-}
-      
-.motivation-home{
-    margin-top:-50px;
-      
-}
-       
-.nav-lists ul  {
-    font-size: small;
-}
-
-.heading {
-    font-size: x-large;
-}
-
-.heading-3{
-    font-size: x-large;
-}
-
-  
-.transform{
-    font-size: 20px;
-
-}
-
-.recipies-button{
-    display:none;
-     
-}
-
-.nutrition-recipies{
-  font-size: 20px;
-}
-
-.about-us-heading h1{
-   font-size:large;
-   width:100%;
-      
-}
-      
-.reach-us{
-   margin-top: 40px;
-        
-}
-     
-.contact-page{
-   flex-direction: column;
-   justify-content: space-around;
-   width:100%;
-   align-items: center;
-      
-}
-      
-.google-map{
-   width:400px;
-   height:100px;
-      
-}
-.crossfit-image{
-   margin-bottom: 50px;
-   margin-top:50px;
-     
-}
-    
-.uppercase{
-  font-size: 20px;
-
-}
-
- 
-.membership-silver{
-    margin-top: 20px;
-    
-}
-
-.nutrition-basic{
-    margin-top: 20px;
-     
-}
-  
-}
-
-@media (max-width: 576px){
-
-
-.nav-bar{
-    display: flex;
-    width: 100%;
-    height: 120px;
-    justify-content: space-around;
-    text-align: center;
-    position: fixed;
-    background-color: black;
-  }
-
-  .nav-lists ul  {
-    position: absolute;
-    clear:left;
-    margin-top:50px;
-    left: 0px;
-    font-size: small;
-    z-index:2;
-   
-}
-
-.hero-image{
-    margin-top:50px;
-  
-}
-  
-.motivation-home{
-    margin-top:50px;
- 
-}
- 
-.button-btn{
-    display:none;
-}
-
-
-.card-1{
-    margin-bottom: 20px;
-  
-}
-
-.section-heading{
-    margin-left:50px;
-  
-}
-
-.hero-text-2  .hard-work{
-   font-size: large;
-  
-}
-
-.google-map{
-   width:200px;
-   height:100px;
-
-}
-
-.heading-3{
-   margin-top:80px;
-
-}
-
-.crossfit-bar-text .hard-work{
-   font-size:large;
+.strategy-call {
    text-align: center;
+   width: 100%;
+   height: 100%;
+   margin-top: 60px;
+   text-transform: uppercase;
+   color: black;
+   padding-top: 5px;
+   padding-bottom: 10px;
 }
 
-.crossfit-bar-text .hard-work span{
-   font-size:40px;
-   text-align:center;
-  
+.call {
+   letter-spacing: 4px;
+   color: orangered;
+   opacity: 0.8;
 }
 
-.container-2{
-   width:100%;
-   height:100%;
-   flex-direction: column;
-   justify-content: center;
-   text-align: center;
+.phone-call {
+   text-transform: capitalize;
+   margin-top: 20px;
 }
 
-.copy-right{
-   display: flex;
-   text-align: center;
-   justify-content: center;
+/*-------------------------------media query---*/
+
+@media (max-width: 1300px) {
+
+   .nav-lists ul li {
+      padding-right: 20px;
+      padding-left: 10px;
+
+
+   }
+
+   .logo {
+      left: 10px;
+      font-size: medium;
+   }
+
 }
 
-.uppercase{
-   margin-top: 30px;
-  
+@media (max-width: 1000px) {
+   .nav-lists ul li {
+      padding-right: 0px;
+      padding-left: 0px;
+
+
+   }
+
+   .logo {
+      left: 10px;
+      font-size: medium;
+
+   }
+
+   .section-heading {
+      margin-left: 80px;
+
+   }
+
+   .footer-3 {
+      display: none;
+
+   }
+
 }
 
-.container-membership{
-    margin-left: 3px;
-    
+@media (max-width: 764px) {
+
+   .nav-bar {
+      display: flex;
+      width: 100%;
+      height: 70px;
+      justify-content: space-around;
+      text-align: center;
+      position: fixed;
+
+   }
+
+   .hero-image {
+      margin-top: -70px;
+
+   }
+
+   .motivation-home {
+      margin-top: -50px;
+
+   }
+
+   .nav-lists ul {
+      font-size: small;
+   }
+
+   .heading {
+      font-size: x-large;
+   }
+
+   .heading-3 {
+      font-size: x-large;
+   }
+
+
+   .transform {
+      font-size: 20px;
+
+   }
+
+   .recipies-button {
+      display: none;
+
+   }
+
+   .nutrition-recipies {
+      font-size: 20px;
+   }
+
+   .about-us-heading h1 {
+      font-size: large;
+      width: 100%;
+
+   }
+
+   .reach-us {
+      margin-top: 40px;
+
+   }
+
+   .contact-page {
+      flex-direction: column;
+      justify-content: space-around;
+      width: 100%;
+      align-items: center;
+
+   }
+
+   .google-map {
+      width: 400px;
+      height: 100px;
+
+   }
+
+   .crossfit-image {
+      margin-bottom: 50px;
+      margin-top: 50px;
+
+   }
+
+   .uppercase {
+      font-size: 20px;
+
+   }
+
+
+   .membership-silver {
+      margin-top: 20px;
+
+   }
+
+   .nutrition-basic {
+      margin-top: 20px;
+
+   }
+
 }
 
+@media (max-width: 576px) {
+
+
+   .nav-bar {
+      display: flex;
+      width: 100%;
+      height: 120px;
+      justify-content: space-around;
+      text-align: center;
+      position: fixed;
+      background-color: black;
+   }
+
+   .nav-lists ul {
+      position: absolute;
+      clear: left;
+      margin-top: 50px;
+      left: 0px;
+      font-size: small;
+      z-index: 2;
+
+   }
+
+   .hero-image {
+      margin-top: 50px;
+
+   }
+
+   .motivation-home {
+      margin-top: 50px;
+
+   }
+
+   .button-btn {
+      display: none;
+   }
+
+
+   .card-1 {
+      margin-bottom: 20px;
+
+   }
+
+   .section-heading {
+      margin-left: 50px;
+
+   }
+
+   .hero-text-2 .hard-work {
+      font-size: large;
+
+   }
+
+   .google-map {
+      width: 200px;
+      height: 100px;
+
+   }
+
+   .heading-3 {
+      margin-top: 80px;
+
+   }
+
+   .crossfit-bar-text .hard-work {
+      font-size: large;
+      text-align: center;
+   }
+
+   .crossfit-bar-text .hard-work span {
+      font-size: 40px;
+      text-align: center;
+
+   }
+
+   .container-2 {
+      width: 100%;
+      height: 100%;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+   }
+
+   .copy-right {
+      display: flex;
+      text-align: center;
+      justify-content: center;
+   }
+
+   .uppercase {
+      margin-top: 30px;
+
+   }
+
+   .container-membership {
+      margin-left: 3px;
+
+   }
 
 
 
-  
+
+
 }
-    
+
 
 /*--------------------------footer----------------*/
 
-.container-2{
-   display:flex;
+.container-2 {
+   display: flex;
    margin-top: 50px;
    padding-top: 50px;
-   padding-bottom:50px;
-   width:100%;
-   height:100%;
-   background-color:rgba(19, 26, 26, 0.973);
+   padding-bottom: 50px;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(19, 26, 26, 0.973);
    justify-content: space-around;
-  
+
 }
 
-.footer-2 ul li{
+.footer-2 ul li {
    list-style: none;
-  
+
 }
 
-.footer-2 ul li a{
+.footer-2 ul li a {
    text-decoration: none;
-   color:white;
+   color: white;
 
 }
 
-.footer-2 ul li .active{
+.footer-2 ul li .active {
    color: #26D0CE;
- 
+
 }
 
-.footer-links{
+.footer-links {
    padding: 8px;
- 
+
 }
- 
+
 .customer {
-   line-height:1.5;
-   color:white;
+   line-height: 1.5;
+   color: white;
 
 }
 
-.social-link{
+.social-link {
    margin-top: 20px;
-   
+
 }
 
-.social-link .social{
+.social-link .social {
    padding: 10px;
-  
+
 }
 
 
-.social-link .social a{
+.social-link .social a {
    text-decoration: none;
 
 }
 
-.social-link .social a i{
+.social-link .social a i {
    font-size: 20px;
- 
+
 }
 
 .color-1 a i {
-   color:white;
-   
+   color: white;
+
 }
 
 .color-2 a i {
@@ -726,76 +794,82 @@ body::before{
 
 }
 
-.color-3 a i{
-   color:white;
-
-}
-
-.color-4 a i{
+.color-3 a i {
    color: white;
 
 }
 
-.copy-right{
+.color-4 a i {
+   color: white;
+
+}
+
+.copy-right {
    text-align: center;
    font-size: small;
-   margin-top:30px;
+   margin-top: 30px;
    text-align: justify;
-   color:white;
+   color: white;
 }
 
-.uppercase{
-   color:orangered;
+.icon {
+   color: orangered;
+   opacity: 0.5;
+}
+
+.uppercase {
+   color: orangered;
    text-transform: capitalize;
-   margin-bottom:30px;
-   opacity:0.7 ;
+   margin-bottom: 30px;
+   opacity: 0.7;
 }
 
-.crossfit-start{
-   color:white;
-
-}
-
-.street{
-  color:white;
+.crossfit-start {
+   color: white;
 
 }
 
-.crossfit-offers{
-   margin-top:-20px;
+.street {
+   color: white;
 
 }
 
-.uppercase-1{
-   color:white;
+.crossfit-offers {
+   margin-top: -20px;
 
 }
 
-.copy-right{
-   color:white;
+.uppercase-1 {
+   color: orangered;
+   opacity: 0.7;
+
+}
+
+.copy-right {
+   color: white;
 
 }
 
 /*---------------------------membership-page------------*/
 
-#membership-page{
+#membership-page {
    background-image: url("../images/home-page-hero.jpg");
-   width:100%;
+   width: 100%;
    min-height: 100%;
    background-attachment: fixed;
 }
 
 
-.hero-image-membership{
-   width:100%;
-   height:700px;
+.hero-image-membership {
+   width: 100%;
+   height: 700px;
    background-image: url("../images/home-page-hero-1.jpg");
    background-position: center;
    background-size: cover;
-   clear:both;
+   clear: both;
    overflow: hidden;
 }
- 
+
 .hero-text-membership {
    position: absolute;
    top: 300px;
@@ -804,144 +878,149 @@ body::before{
    color: white;
    font-family: 'Oswald', sans-serif;
    text-align: justify;
-  
-}
- 
-.orange{
-  color:orangered;
 
 }
 
-.motivation-1{
-   text-align: center; 
-   width:100%;
+.orange {
+   color: orangered;
+
+}
+
+.motivation-1 {
+   text-align: center;
+   width: 100%;
    height: 100%;
    margin-top: 20px;
-   text-transform:uppercase;
+   text-transform: uppercase;
    color: white;
    padding-top: 5px;
-   padding-bottom:5px;
+   padding-bottom: 5px;
    letter-spacing: 3px;
- 
+
 }
 
-.container-membership{
+.container-membership {
    margin-top: 50px;
    margin-bottom: 150px;
-   text-transform:capitalize;
-   width:100%;
-   
-    
-  
+   text-transform: capitalize;
+   width: 100%;
+
+
+
 }
 
-.membership-premium{
-   border:none;
+.membership-premium {
+   border: none;
    background-image: url("../images/home-page-hero.jpg");
    color: white;
    opacity: 0.7;
    background-position: center;
    animation-name: premium;
    animation-duration: 5s;
-   animation-fill-mode:forwards;
-  
+   animation-fill-mode: forwards;
+
 }
-  @keyframes premium {
-    from{
+
+@keyframes premium {
+   from {
       transform: scale(0.5);
-    }
-    to{
+   }
+
+   to {
       transform: scale(1);
-    }
-  }
- 
-.membership-silver{
+   }
+}
+
+.membership-silver {
    background-image: url("../images/home-page-hero.jpg");
-   color:white;
+   color: white;
    opacity: 0.7;
    background-position: center;
    animation-name: silver-1;
    animation-duration: 5s;
-   animation-fill-mode:forwards;
- 
+   animation-fill-mode: forwards;
+
 }
 
 @keyframes silver-1 {
-    from{
+   from {
       transform: scale(0.5);
-    }
-    to{
+   }
+
+   to {
       transform: scale(1);
-    }
-  }
-    
-.membership-gold{
-   background-image: url("../images/home-page-hero.jpg");
-   color:white;
-   opacity: 0.7;
-   background-position: center;
-   animation-name: gold-1;
-   animation-duration: 5s;
-   animation-fill-mode:forwards;
-   margin-top: 20px;
- 
+   }
 }
 
- @keyframes gold-1 {
-    from{
-      transform: scale(0.5);
-    }
-    to{
-      transform: scale(1);
-    }
-  }
-   
-.membership-platinum{
-   margin-top: 20px;
+.membership-gold {
    background-image: url("../images/home-page-hero.jpg");
-   color:white;
+   color: white;
    opacity: 0.7;
    background-position: center;
    animation-name: gold-1;
    animation-duration: 5s;
-   animation-fill-mode:forwards;
-   
+   animation-fill-mode: forwards;
+   margin-top: 20px;
+
 }
 
 @keyframes gold-1 {
-      from{
-        transform: scale(0.5);
-      }
-      to{
-        transform: scale(1);
-      }
-    }
-     
-.heading-member{
-    margin-bottom: 20px;
-  
+   from {
+      transform: scale(0.5);
+   }
+
+   to {
+      transform: scale(1);
+   }
 }
 
-.monthly-cost{
-    color:white;
-    font-size: 20px;
-  
+.membership-platinum {
+   margin-top: 20px;
+   background-image: url("../images/home-page-hero.jpg");
+   color: white;
+   opacity: 0.7;
+   background-position: center;
+   animation-name: gold-1;
+   animation-duration: 5s;
+   animation-fill-mode: forwards;
+
 }
 
-.list-2{
-   padding:10px;
-  
+@keyframes gold-1 {
+   from {
+      transform: scale(0.5);
+   }
+
+   to {
+      transform: scale(1);
+   }
 }
 
-.crossfit-bar-image{
-   width:100%;
-   height:100%;
+.heading-member {
+   margin-bottom: 20px;
+
+}
+
+.monthly-cost {
+   color: white;
+   font-size: 20px;
+
+}
+
+.list-2 {
+   padding: 10px;
+
+}
+
+.crossfit-bar-image {
+   width: 100%;
+   height: 100%;
    background-image: url("../images/crossfit-bar.jpg");
    background-position: center;
    background-size: cover;
-   clear:both;
-   overflow:hidden;
-  
+   clear: both;
+   overflow: hidden;
+
 }
 
 .crossfit-bar-text {
@@ -949,289 +1028,294 @@ body::before{
    top: 200px;
    left: 80px;
    text-transform: uppercase;
-   color:white;
+   color: white;
    font-family: 'Oswald', sans-serif;
    letter-spacing: 4px;
    text-align: center;
-   justify-content:center;
-    
+   justify-content: center;
+
 }
 
-.crossfit-bar-text span{
-   color:orangered;
+.crossfit-bar-text span {
+   color: orangered;
    font-size: 70px;
-  
+
 }
 
-.make-a-call{
+.make-a-call {
    margin-top: 20px;
-  
+
 }
 
 /*---------------------------nutrition-page------------*/
 
-#nutrition-page{
-   background-image:url(../images/NutritionWellness-1.jpg);
-   width:100%;
+#nutrition-page {
+   background-image: url(../images/NutritionWellness-1.jpg);
+   width: 100%;
    min-height: 100%;
    background-position: center;
    background-size: cover;
    background-attachment: fixed;
    background-repeat: repeat;
-    
+
 }
 
-.nutrition-1{
+.nutrition-1 {
    position: absolute;
    top: 100px;
    left: 50px;
 }
 
-.background-image{
-   background-image:url("../images/NutritionWellness.jpg");
-   height:500px;
-   width:100%;
+.background-image {
+   background-image: url("../images/NutritionWellness.jpg");
+   height: 500px;
+   width: 100%;
    background-size: cover;
-   background-position:center;
+   background-position: center;
    position: relative;
-     
+
 }
 
-.nutrition-centric{
+.nutrition-centric {
    text-transform: uppercase;
    letter-spacing: 4px;
-   color:white;
+   color: white;
    animation-name: gold-1;
    animation-duration: 5s;
-   animation-fill-mode:forwards;
+   animation-fill-mode: forwards;
 }
 
 @keyframes gold-1 {
-      from{
-        transform: scale(0.5);
-      }
-      to{
-        transform: scale(1);
-      }
-    }
-  
- 
-.wellness-line{
-   width:70%;
+   from {
+      transform: scale(0.5);
+   }
+
+   to {
+      transform: scale(1);
+   }
+}
+
+
+.wellness-line {
+   width: 70%;
    background-color: orangered;
 }
 
-.container-nutrition{
+.container-nutrition {
    margin-top: -100px;
    margin-bottom: 80px;
-   text-transform:capitalize;
-   height:100%;
-  
+   text-transform: capitalize;
+   height: 100%;
+
 }
 
-.nutrition-starter{
+.nutrition-starter {
    background-image: url(../images/about-page.jpg);
-   color:white;
-   border:none;
+   color: white;
+   border: none;
    animation-name: nutrition-1;
    animation-duration: 7s;
-   animation-fill-mode:forwards;
+   animation-fill-mode: forwards;
 
 }
 
 @keyframes nutrition-1 {
-  from{
-    transform:rotate(30deg);
-  }
-  to{
-    transform: scale(1);
-  }
+   from {
+      transform: rotate(30deg);
+   }
+
+   to {
+      transform: scale(1);
+   }
 }
 
-.nutrition-starter:hover{
-  background-image: url("../images/nutrition-hover.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  
-  
-}
-
-.nutrition-basic{
-   background-image: url(../images/about-page.jpg);
-   color:white;
-   border:none;
-   animation-name: nutrition-1;
-   animation-duration: 7s;
-   animation-fill-mode:forwards;
-
-}
-
-@keyframes nutrition-1 {
-  from{
-    transform:rotate(30deg);
-  }
-  to{
-    transform: scale(1);
-  }
-}
-
-.nutrition-basic:hover{
+.nutrition-starter:hover {
    background-image: url("../images/nutrition-hover.jpg");
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
 
-} 
-    
-.nutrition-advanced{
+
+}
+
+.nutrition-basic {
    background-image: url(../images/about-page.jpg);
-   color:white;
-   border:none;
+   color: white;
+   border: none;
    animation-name: nutrition-1;
    animation-duration: 7s;
-   animation-fill-mode:forwards;
+   animation-fill-mode: forwards;
 
 }
 
 @keyframes nutrition-1 {
-  from{
-    transform:rotate(30deg);
-  }
-  to{
-    transform: scale(1);
-  }
+   from {
+      transform: rotate(30deg);
+   }
+
+   to {
+      transform: scale(1);
+   }
 }
 
-.nutrition-advanced:hover{
-    background-image: url("../images/nutrition-hover.jpg");
+.nutrition-basic:hover {
+   background-image: url("../images/nutrition-hover.jpg");
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
 
 }
 
-.nutrition-extra-advanced{
+.nutrition-advanced {
    background-image: url(../images/about-page.jpg);
-   color:white;
-   border:none;
+   color: white;
+   border: none;
    animation-name: nutrition-1;
    animation-duration: 7s;
-   animation-fill-mode:forwards;
+   animation-fill-mode: forwards;
 
 }
 
 @keyframes nutrition-1 {
- from{
-   transform:rotate(30deg);
- }
- to{
-   transform: scale(1);
- }
+   from {
+      transform: rotate(30deg);
+   }
+
+   to {
+      transform: scale(1);
+   }
 }
 
-.nutrition-extra-advanced:hover{
+.nutrition-advanced:hover {
+   background-image: url("../images/nutrition-hover.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+
+.nutrition-extra-advanced {
+   background-image: url(../images/about-page.jpg);
+   color: white;
+   border: none;
+   animation-name: nutrition-1;
+   animation-duration: 7s;
+   animation-fill-mode: forwards;
+
+}
+
+@keyframes nutrition-1 {
+   from {
+      transform: rotate(30deg);
+   }
+
+   to {
+      transform: scale(1);
+   }
+}
+
+.nutrition-extra-advanced:hover {
    background-image: url("../images/nutrition-hover.jpg");
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
 }
 
-.nutrition-advanced{
+.nutrition-advanced {
    margin-top: 20px;
 
 }
 
-.nutrition-extra-advanced{
+.nutrition-extra-advanced {
    margin-top: 20px;
 
 }
- 
-.heading-nutrition{
+
+.heading-nutrition {
    margin-bottom: 20px;
 
 }
 
-.one-time-payment{
-   color:white;
+.one-time-payment {
+   color: white;
    font-size: 20px;
 }
 
-.list-3{
-   padding:5px;
+.list-3 {
+   padding: 5px;
 
 }
- 
-.crossfit-nutrition{
-   text-align: center; 
-   width:100%;
+
+.crossfit-nutrition {
+   text-align: center;
+   width: 100%;
    height: 100%;
    margin-bottom: 50px;
-   text-transform:uppercase;
+   text-transform: uppercase;
    color: white;
    padding-top: 5px;
-   padding-bottom:10px;
+   padding-bottom: 10px;
 }
 
-.power{
+.power {
    letter-spacing: 4px;
 
 }
 
-.food-heal{
+.food-heal {
    text-transform: capitalize;
 
 }
 
-.crossfit-100-recipies{
+.crossfit-100-recipies {
    position: absolute;
-   top:150px;
- 
+   top: 150px;
+
 }
 
-.recipies-image{
-   background-image:url("../images/100-recipes.jpg");
-   height:500px;
-   width:100%;
+.recipies-image {
+   background-image: url("../images/100-recipes.jpg");
+   height: 500px;
+   width: 100%;
    background-size: cover;
-   background-position:center;
+   background-position: center;
    position: relative;
 
 
 }
 
-.nutrition-recipies{
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  color: white;
-  text-align: center;
+.nutrition-recipies {
+   text-transform: uppercase;
+   letter-spacing: 4px;
+   color: white;
+   text-align: center;
 
 
 }
 
-.recipies-button{
+.recipies-button {
    position: absolute;
-   left:200px;
+   left: 200px;
    margin-top: 30px;
    width: 150px;
-   padding:10px;
+   padding: 10px;
    text-transform: capitalize;
 
 }
 
 /*------------------------------------about-us-page----------*/
 
-#about-us-background{
+#about-us-background {
    background-image: url("../images/about-page.jpg");
-   background-repeat:repeat;
+   background-repeat: repeat;
    background-position: center;
    background-size: cover;
    width: 100%;
    height: 100vh;
-  
+
 }
 
-.about-us-heading{
+.about-us-heading {
    margin-top: 120px;
    text-align: center;
    text-transform: uppercase;
@@ -1239,190 +1323,192 @@ body::before{
    color: white;
    animation-name: gold-1;
    animation-duration: 5s;
-   animation-fill-mode:forwards;
- 
+   animation-fill-mode: forwards;
+
 
 }
- 
+
 @keyframes gold-1 {
-   from{
-     transform: scale(0.5);
+   from {
+      transform: scale(0.5);
    }
-   to{
-     transform: scale(1);
+
+   to {
+      transform: scale(1);
    }
- }
- 
+}
+
 .about-us-1 {
    margin-top: 100px;
-   
+
 }
 
-.crossfit-about{
-   color:white;
-  
+.crossfit-about {
+   color: white;
+
 }
 
-.crossfit-decade{
+.crossfit-decade {
    font-size: xx-large;
    letter-spacing: 4px;
    text-transform: uppercase;
 }
 
-.crossfit-founder{
+.crossfit-founder {
    text-transform: capitalize;
 
 }
 
-.crossfit-image{
-   width:100%;
+.crossfit-image {
+   width: 100%;
 
 }
 
-.about-us-2{
+.about-us-2 {
    margin-top: 100px;
-   
- }
- 
-.crossfit-about-2{
-   color:white;
- 
- }
- 
-.strategies{
+
+}
+
+.crossfit-about-2 {
+   color: white;
+
+}
+
+.strategies {
    margin-top: 50px;
- 
+
 }
 
 /*-------------------------------contact-page--------*/
 
-#contact-container{
-   width:100%;
+#contact-container {
+   width: 100%;
    height: 700px;
    position: relative;
- 
+
 }
 
-.contact-image{
+.contact-image {
    background-image: url("../images/hero-image.jpg");
-   height:100%;
-   width:100%;
+   height: 100%;
+   width: 100%;
    background-position: center;
    background-size: cover;
-   clear:both;
+   clear: both;
    overflow: hidden;
    background-repeat: no-repeat;
 }
 
-.contact-text{
+.contact-text {
    position: absolute;
-   top:300px;
-   left:100px;
+   top: 300px;
+   left: 100px;
    text-align: center;
    color: white;
    text-transform: uppercase;
    letter-spacing: 4px;
    justify-content: center;
-   
+
 }
 
-.contact-page{
+.contact-page {
    display: flex;
    margin-top: 50px;
    margin-bottom: 50px;
    padding-top: 50px;
-   padding-bottom:50px;
-   width:100%;
-   height:100%;
+   padding-bottom: 50px;
+   width: 100%;
+   height: 100%;
    justify-content: space-evenly;
- 
+
 }
 
-.contact-heading{
+.contact-heading {
    margin-top: 50px;
-   text-transform:uppercase;
+   text-transform: uppercase;
    color: white;
    text-align: center;
 
 }
 
-.contact-heading span{
- color:orangered;
+.contact-heading span {
+   color: orangered;
 }
 
-.contact-page-right{
+.contact-page-right {
    flex-basis: 50%;
-   
+
 }
- 
-.contact-us{
+
+.contact-us {
    margin-bottom: 30px;
    text-transform: uppercase;
    color: white;
 }
 
 
-.uppercase-contact{
-   display:flex;
+.uppercase-contact {
+   display: flex;
    justify-content: space-between;
-   margin-bottom:20px;
- 
+   margin-bottom: 20px;
+
 }
 
-.full-name  {
+.full-name {
    flex-basis: 40%;
-   color:white;
+   color: white;
 }
 
-.last-name  {
+.last-name {
    flex-basis: 40%;
-   color:white;
+   color: white;
 }
 
-input[type=text],input[type=email]{
-   width:100%;
- 
+input[type=text],
+input[type=email] {
+   width: 100%;
+
 }
-  
-label{
+
+label {
    color: white;
    font-size: 16px;
 }
 
 textarea {
-   width:100%;
-   padding:20px;
+   width: 100%;
+   padding: 20px;
    box-sizing: border-box;
-  
+
 }
 
-input[type=submit]{
+input[type=submit] {
    width: 20%;
-   height:40px;
+   height: 40px;
    text-align: center;
 }
 
-.reach-us{
-   color:white;
+.reach-us {
+   color: white;
    text-transform: uppercase;
 }
 
-.street-1{
+.street-1 {
    color: white;
    text-transform: capitalize;
-   margin-top:30px;
-}
-
-table{
    margin-top: 30px;
-   color:white;
 }
 
-.c-service{
-   padding-right:20px;
+table {
+   margin-top: 30px;
+   color: white;
+}
+
+.c-service {
+   padding-right: 20px;
    padding-top: 10px;
 }
 
-.google-map{
-   margin-top:40px;
+.google-map {
+   margin-top: 40px;
 }
