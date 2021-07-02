@@ -348,9 +348,19 @@ body::before {
 
 }
 
-.crossfit-about {
+.about-us-1 .crossfit-about {
    color: black;
 }
+
+.about-us-3 .crossfit-about {
+   color: black;
+}
+
+.about-us-2 .crossfit-about-2 {
+   color: black;
+
+}
+
 
 .crossfit-decade {
    font-size: xx-large;
@@ -378,11 +388,6 @@ body::before {
    margin-top: 100px;
    margin-bottom: 100px;
 
-
-}
-
-.crossfit-about-2 {
-   color: black;
 
 }
 
@@ -654,7 +659,7 @@ body::before {
    }
 
 
-   .card-1 {
+   .card {
       margin-bottom: 20px;
 
    }
@@ -664,8 +669,12 @@ body::before {
 
    }
 
-   .hero-text-2 .hard-work {
-      font-size: large;
+   section .hover-text {
+      border-top-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+      border-bottom-left-radius: 0px;
+      border-top-right-radius: 0px;
+      width: 100%;
 
    }
 
@@ -703,6 +712,7 @@ body::before {
       display: flex;
       text-align: center;
       justify-content: center;
+      margin-bottom: 0px;
    }
 
    .uppercase {
@@ -710,15 +720,57 @@ body::before {
 
    }
 
+   .hero-text-3 .hard-work {
+      margin-top: 200px;
+      font-size: xx-large;
+      letter-spacing: 3px;
+   }
+
    .container-membership {
       margin-left: 3px;
 
    }
 
+   section .about-us-1 {
+      margin-top: -30px;
+   }
+
+   section .about-us-2 {
+      margin-top: 0px;
+   }
+
+   section .about-us-3 {
+      margin-top: 50px;
+      margin-bottom: 50px;
+   }
 
 
+}
+
+@media (max-width: 320px) {
+
+   .two-button {
+      display: flex;
+      margin-top: 20px;
+      text-align: center;
+      margin-bottom: 10px;
 
 
+   }
+
+   .hero-text-2 .hard-work {
+      font-size: large;
+   }
+
+
+   section .hover-text {
+      margin-top: -100px;
+   }
+
+   .hero-text-3 .hard-work {
+      margin-top: 150px;
+
+   }
 }
 
 
