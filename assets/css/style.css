@@ -618,7 +618,7 @@ body::before {
       margin-top: 20px;
 
    }
-
+  
 }
 
 @media (max-width: 576px) {
@@ -921,20 +921,21 @@ body::before {
    clear: both;
    overflow: hidden;
    position: absolute;
-   top:70px;
-   bottom:70px;
+   top: 70px;
+   bottom: 70px;
 }
-.hero-image-membership::before{
+
+.hero-image-membership::before {
    content: "";
-   display:block;
-   position:absolute;
-   background:black;
-   top:0;
-   right:0;
-   bottom:0;
-   left:0;
+   display: block;
+   position: absolute;
+   background: black;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
    opacity: 0.2;
- }
+}
 
 .hero-text-membership {
    position: absolute;
@@ -985,7 +986,7 @@ body::before {
    animation-name: premium;
    animation-duration: 5s;
    animation-fill-mode: forwards;
-   border:none;
+   border: none;
 }
 
 @keyframes premium {
@@ -1007,7 +1008,7 @@ body::before {
    animation-name: silver-1;
    animation-duration: 5s;
    animation-fill-mode: forwards;
-   border:none;
+   border: none;
 }
 
 @keyframes silver-1 {
@@ -1030,7 +1031,7 @@ body::before {
    animation-duration: 5s;
    animation-fill-mode: forwards;
    margin-top: 20px;
-   border:none;
+   border: none;
 }
 
 @keyframes gold-1 {
@@ -1054,7 +1055,7 @@ body::before {
    animation-name: gold-1;
    animation-duration: 5s;
    animation-fill-mode: forwards;
-   border:none;
+   border: none;
 }
 
 @keyframes gold-1 {
@@ -1094,17 +1095,17 @@ body::before {
 
 }
 
-.crossfit-bar-image::before{
+.crossfit-bar-image::before {
    content: "";
-   display:block;
-   position:absolute;
-   background:black;
-   top:0;
-   right:0;
-   bottom:0;
-   left:0;
+   display: block;
+   position: absolute;
+   background: black;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
    opacity: 0.5;
- }
+}
 
 .crossfit-bar-text {
    position: absolute;
@@ -1116,6 +1117,7 @@ body::before {
    letter-spacing: 4px;
    text-align: center;
    justify-content: center;
+   opacity: 0.8;
 
 }
 
@@ -1128,6 +1130,10 @@ body::before {
 .make-a-call {
    margin-top: 20px;
 
+}
+
+.phone-call-1 {
+   color: white;
 }
 
 /*---------------------------nutrition-page------------*/
