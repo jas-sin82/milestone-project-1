@@ -920,7 +920,21 @@ body::before {
    background-size: cover;
    clear: both;
    overflow: hidden;
+   position: absolute;
+   top:70px;
+   bottom:70px;
 }
+.hero-image-membership::before{
+   content: "";
+   display:block;
+   position:absolute;
+   background:black;
+   top:0;
+   right:0;
+   bottom:0;
+   left:0;
+   opacity: 0.2;
+ }
 
 .hero-text-membership {
    position: absolute;
