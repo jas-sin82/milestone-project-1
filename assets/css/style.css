@@ -1165,6 +1165,18 @@ body::before {
    top:70px;
 }
 
+.background-image::before{
+   content: "";
+   display:block;
+   position:absolute;
+   background:black;
+   top:0;
+   right:0;
+   bottom:0;
+   left:0;
+   opacity: 0.2;
+ }
+
 .nutrition-centric {
    text-transform: uppercase;
    letter-spacing: 4px;
@@ -1186,12 +1198,12 @@ body::before {
 
 
 .wellness-line {
-   width: 70%;
+   width: 50%;
    background-color: orangered;
 }
 
 .container-nutrition {
-   margin-top: -100px;
+   margin-top: -50px;
    margin-bottom: 80px;
    text-transform: capitalize;
    height: 100%;
