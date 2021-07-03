@@ -1214,6 +1214,7 @@ body::before {
    background-image: url(../images/about-page.jpg);
    color: white;
    border: none;
+   border-radius: 20px;
    animation-name: nutrition-1;
    animation-duration: 7s;
    animation-fill-mode: forwards;
@@ -1243,6 +1244,7 @@ body::before {
    background-image: url(../images/about-page.jpg);
    color: white;
    border: none;
+   border-radius: 20px;
    animation-name: nutrition-1;
    animation-duration: 7s;
    animation-fill-mode: forwards;
@@ -1271,6 +1273,7 @@ body::before {
    background-image: url(../images/about-page.jpg);
    color: white;
    border: none;
+   border-radius: 20px;
    animation-name: nutrition-1;
    animation-duration: 7s;
    animation-fill-mode: forwards;
@@ -1299,6 +1302,7 @@ body::before {
    background-image: url(../images/about-page.jpg);
    color: white;
    border: none;
+   border-radius: 20px;
    animation-name: nutrition-1;
    animation-duration: 7s;
    animation-fill-mode: forwards;
