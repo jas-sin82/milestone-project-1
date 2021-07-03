@@ -1162,7 +1162,7 @@ body::before {
    background-size: cover;
    background-position: center;
    position: relative;
-
+   top:70px;
 }
 
 .nutrition-centric {
