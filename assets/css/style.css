@@ -1386,14 +1386,27 @@ body::before {
    background-position: center;
    position: relative;
 
-
 }
 
+.recipies-image::before{
+   content: "";
+   display:block;
+   position:absolute;
+   background:black;
+   top:0;
+   right:0;
+   bottom:0;
+   left:0;
+   opacity: 0.5;
+ }
+
 .nutrition-recipies {
-   text-transform: uppercase;
-   letter-spacing: 4px;
-   color: white;
-   text-align: center;
+   text-transform: capitalize;
+   line-height:2;
+   letter-spacing:1px ;
+   color:whitesmoke;
+   font-weight: normal;
+   font-size: x-large;
 
 
 }
