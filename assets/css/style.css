@@ -1145,7 +1145,7 @@ body::before {
    background-size: cover;
    background-attachment: fixed;
    background-repeat: repeat;
-
+   position: relative;
 }
 
 .nutrition-1 {
@@ -1160,8 +1160,9 @@ body::before {
    width: 100%;
    background-size: cover;
    background-position: center;
-   position: relative;
+   position: absolute;
    top: 70px;
+   
 }
 
 .background-image::before {
@@ -1202,7 +1203,7 @@ body::before {
 }
 
 .container-nutrition {
-   margin-top: -50px;
+   margin-top: 500px;
    margin-bottom: 80px;
    text-transform: capitalize;
    height: 100%;
