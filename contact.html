@@ -63,7 +63,8 @@
                         <div class=" uppercase-contact">
                             <div class="full-name">
                                 <label for="email-field">Email</label>
-                                <input type="email" name="email" id="email-field" placeholder="Your Email Address" required>
+                                <input type="email" name="email" id="email-field" placeholder="Your Email Address"
+                                    required>
                             </div>
                         </div>
                         <div>
@@ -122,7 +123,8 @@
                 <h3 class="customer-service uppercase">Support</h3>
                 <hr>
                 <div>
-                    <span class="customer"><i class="fas fa-envelope icon"></i> Email: <br>crossfit@gmail.com </span><br>
+                    <span class="customer"><i class="fas fa-envelope icon"></i> Email: <br>crossfit@gmail.com
+                    </span><br>
                     <span class="customer"><i class="fas fa-phone icon"></i> Telephone:<br> 0123456789</span>
                     <h6 class="customer"><i class="fas fa-door-open icon"></i> Opening hour </h6>
                     <span class="customer">Mon - Fri</span>
@@ -168,6 +170,17 @@
             </div>
         </div>
     </footer>
+    <!--Add javascript add event function to submit the form -->
+    <script type="text/javascript">
+        let contact = document.getElementById('contact-form');
+        contact.addEventListener('submit', handleSubmit);
+
+        function handleSubmit(event) {
+            event.preventDefault();
+            console.log("form submitted");
+            contact.submit();
+        }
+    </script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>
