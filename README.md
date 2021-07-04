@@ -331,7 +331,7 @@ and some of them from  unspalsh website [unspalash](https://unsplash.com)
 
   ![screenshot](mock-images/Screenshot-home-mobile.png)
 
-  ![screenshot](mock-images/Screenshot-membership.png)
+  ![screenshot](mock-images/screenshot-membership.png)
 
   ![screenshot](mock-images/Screenshot-membership-ipad.png)
 
