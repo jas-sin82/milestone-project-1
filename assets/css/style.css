@@ -1444,6 +1444,8 @@ body::before {
    clear: both;
    overflow: hidden;
    background-repeat: no-repeat;
+   position: absolute;
+   top:70px;
 }
 
 .contact-text {
