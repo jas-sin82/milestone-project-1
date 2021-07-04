@@ -1445,7 +1445,19 @@ body::before {
    overflow: hidden;
    background-repeat: no-repeat;
    position: absolute;
-   top:70px;
+   top: 70px;
+}
+
+.contact-image::before {
+   content: "";
+   display: block;
+   position: absolute;
+   background: black;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   opacity: 0.2;
 }
 
 .contact-text {
