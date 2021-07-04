@@ -2,29 +2,25 @@
 
 ## User-Centric Frontend Development Milestone-1 Project
 
-Intention behind to build this Project is educational purpose(as a student of code institute) ! In this project I have used HTML for structure , CSS to style and finally media query & bootstap to make the project 
-responsive on all devices. 
+Intention behind to build this Project is educational purpose(as a student of code institute) ! In this project I have used HTML for structure , CSS to style, media query & bootstap to make the project 
+responsive on all devices and use DOM and javascript to submit a contact form. 
 
-This project presents a fitness web page call Crossfit. whole project has five diffrent webpages each page has diffrent content but as user prospective 
+This project presents a fitness web page call Crossfit. whole project has four diffrent webpages each page has diffrent content but as user prospective 
 each webpage  easily and smoothly will navigate user to their destination.
 
  ## [live webpage of my project ]( https://jas-sin82.github.io/milestone-project-1/)
 
  ---
 
-## Screenshots of project 
+## Screenshot of project 
 
 # Desktop, Ipad & Mobile
   
 
-![screenshot](mock-images/desktop.png)
-
-![screenshot](mock-images/ipad.png)
-
-![screenshot](mock-images/mobile.png)
+![screenshot](mock-images/screenshot.png)
 
 
- # Highlights
+# Highlights
 
  * [User Experience (UX)](#User-experience-UX)
   
@@ -122,8 +118,6 @@ each webpage  easily and smoothly will navigate user to their destination.
 
 ![screenshot](mock-images/nutrition-page.png)
 
-![screenshot](mock-images/about-page.png)
-
 ![screenshot](mock-images/contact-page.png)
 
 # Surface
@@ -165,7 +159,7 @@ and some of them from  unspalsh website [unspalash](https://unsplash.com)
 
 # Features
 
- Website consists of 5 pages and all the web page function good. Each webpage contains diffrent contents.
+ Website consists of 4 pages and all the web page function good. Each webpage contains diffrent contents.
 
   ## Navigation-Bar 
   
@@ -178,7 +172,7 @@ and some of them from  unspalsh website [unspalash](https://unsplash.com)
 
   * Nutrition 
 
-  * About Us 
+  * Contact
 
   ## Cards 
 
@@ -196,11 +190,11 @@ and some of them from  unspalsh website [unspalash](https://unsplash.com)
 
   * 2nd section has 4 links which are completely work.
     
-     * Membership 
+     *  Home
 
-     * Nutrition 
+     *  Membership
 
-     *  About Us
+     *  Nutrition
 
      *  Contact 
 
@@ -331,21 +325,27 @@ and some of them from  unspalsh website [unspalash](https://unsplash.com)
 
   [Back to Highlights ](#highlights)
 
-  ![screenshot](mock-images/screenshot-membership.png)
+  ![screenshot](mock-images/home-page-screenshot-1.png)
   
-  ![screenshot](mock-images/screenshot-membership-2.png)
+  ![screenshot](mock-images/screenshot-home-ipad.png)
 
-  ![screenshot](mock-images/screenshot-membership-1.png)
+  ![screenshot](mock-images/screenshot-home-mobile.png)
 
-  ![screenshot](mock-images/Screenshot-contact-1.png)
+  ![screenshot](mock-images/Screenshot-membership.png)
 
-  ![screenshot](mock-images/Screenshot-membership-4.png)
+  ![screenshot](mock-images/Screenshot-membership-ipad.png)
 
-  ![screenshot](mock-images/Screenshot-contact-3.png)
+  ![screenshot](mock-images/Screenshot-membership-mobile.png)
 
-  ![screenshot](mock-images/Screenshot-about-1.png)
+  ![screenshot](mock-images/Screenshot-nutrition-desktop.png)
 
-  ![screenshot](mock-images/Screenshot-about.png)
+  ![screenshot](mock-images/Screenshot-nutrition-ipad.png)
+
+  ![screenshot](mock-images/Screenshot-nutrition-mobile.png)
+
+  ![screenshot](mock-images/Screenshot-contact-ipad.png)
+
+  ![screenshot](mock-images/Screenshot-footer.png)
 
   [Back to Highlights ](#highlights)
    
