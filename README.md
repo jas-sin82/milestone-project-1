@@ -17,7 +17,7 @@ each webpage  easily and smoothly will navigate user to their destination.
 # Desktop, Ipad & Mobile
   
 
-![screenshot](mock-images/screenshot.png)
+![screenshot](mock-images/Screenshot.png)
 
 
 # Highlights
@@ -327,9 +327,9 @@ and some of them from  unspalsh website [unspalash](https://unsplash.com)
 
   ![screenshot](mock-images/home-page-screenshot-1.png)
   
-  ![screenshot](mock-images/screenshot-home-ipad.png)
+  ![screenshot](mock-images/Screenshot-home-ipad.png)
 
-  ![screenshot](mock-images/screenshot-home-mobile.png)
+  ![screenshot](mock-images/Screenshot-home-mobile.png)
 
   ![screenshot](mock-images/Screenshot-membership.png)
 
