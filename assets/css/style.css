@@ -1472,14 +1472,14 @@ body::before {
 
 }
 
-.contact-box-color{
-   background-color:white;
-   border-top-left-radius:70px ;
+.contact-box-color {
+   background-color: white;
+   border-top-left-radius: 70px;
    border-bottom-right-radius: 70px;
    border-bottom-left-radius: 70px;
    border-top-right-radius: 70px;
-  
- }
+
+}
 
 .contact-page {
    display: flex;
@@ -1496,7 +1496,7 @@ body::before {
 .contact-heading {
    margin-top: 150px;
    text-transform: uppercase;
-   color:black;
+   color: black;
    text-align: center;
    padding-top: 30px;
 }
@@ -1555,6 +1555,9 @@ input[type=submit] {
    width: 20%;
    height: 40px;
    text-align: center;
+   background-color: rgb(153, 56, 71);
+   opacity: 0.8;
+   color: white;
 }
 
 .reach-us {
