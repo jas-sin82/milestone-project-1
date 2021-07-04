@@ -396,7 +396,6 @@ body::before {
 }
 
 .carousel-caption .black-1 {
-   font-weight: 700px;
    text-transform: capitalize;
    color: black;
 }
