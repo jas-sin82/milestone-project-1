@@ -36,19 +36,20 @@
         <div id="contact-container">
             <div class="contact-image">
                 <div class="contact-text">
-                    <h1 class="contact-heading">start your journey with us <span>today </span>!</h1>
+                    <h1 class="contact-heading">start your journey with us <br><span>today</span>!</h1>
                 </div>
             </div>
         </div>
     </section>
-    <!--this section contains a form  , address .telephone & google map  as well which will lead user  to contact crossfit-->
+    <!--this section contains a form, address ,telephone & google map  as well which will lead user  to contact crossfit-->
     <section>
         <div class=" container">
             <h1 class="contact-heading"> connect with us </h1>
             <div class="contact-page">
                 <div class=" contact-page-right">
                     <h3 class="contact-us">Contact Us</h3>
-                    <form>
+                    <form id="contact-form" action="https://formdump.codeinstitute.net/" method="POST"
+                        autocomplete="off">
                         <div class=" uppercase-contact">
                             <div class="full-name">
                                 <label for="f-name">Full Name </label>
@@ -64,20 +65,11 @@
                                 <label for="email-field">Email</label>
                                 <input type="email" name="email" id="email-field" placeholder="Your Email" required>
                             </div>
-                            <div class="last-name">
-                                <label for="phone-n">Phone Number </label>
-                                <input type="text" name="phone-number" id="phone-n" placeholder="Phone Number" required>
-                            </div>
                         </div>
                         <div>
                             <label for="comment-section"> Comment</label><br>
-                            <textarea name="text" id="comment-section" rows="4"></textarea>
-                        </div>
-                        <br>
-                        <div>
-                            <input type="checkbox" id="promotional-checkbox" name="promotional">
-                            <label for="promotional-checkbox"> I agree to receiving marketing and promotional
-                                materials</label>
+                            <textarea name="text" id="comment-section" rows="4"
+                                placeholder="Type your message here..."></textarea>
                         </div>
                         <br>
                         <input type="submit" value=" Submit">
@@ -98,6 +90,10 @@
                             <td class="c-service">customer service</td>
                             <td class="c-service"> 0123456789 </td>
                         </tr>
+                        <tr>
+                            <td class="c-service">Opening Hours </td>
+                            <td class="c-service"> Mon-Fri <br> 08:00 - 22:00 <br> Weekend <br>10:00 - 18:00</td>
+                        </tr>
                     </table>
                     <!--here beneath i have attached google map which will make easy to find location-->
                     <iframe class="google-map"
@@ -111,7 +107,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12  strategy-call make-a-call ">
-                    <h3 class="call">Claim Your Free Strategy Call !</h3>
+                    <h3 class="call">Claim Your Free Strategy Call ! <i class="fas fa-phone"></i></h3>
                     <p class="phone-call"> Experience what we can do for you first hand. Get a free strategy call
                         via phone or video chat, learn maximise your workouts and get advice specific to you and
                         your fitness goals.
@@ -123,12 +119,12 @@
     <footer>
         <div class="container-2">
             <div class="footer-1">
-                <h3 class="customer-service uppercase"> customer service </h3>
+                <h3 class="customer-service uppercase">Support</h3>
                 <hr>
                 <div>
-                    <span class="customer"> Email: <br>crossfit@gmail.com </span><br>
-                    <span class="customer"> Telephone:<br> 0123456789</span>
-                    <h6 class="customer">opening hour (customer care 8:00 - 16:00) </h6>
+                    <span class="customer"><i class="fas fa-envelope icon"></i> Email: <br>crossfit@gmail.com </span><br>
+                    <span class="customer"><i class="fas fa-phone icon"></i> Telephone:<br> 0123456789</span>
+                    <h6 class="customer"><i class="fas fa-door-open icon"></i> Opening hour </h6>
                     <span class="customer">Mon - Fri</span>
                     <span class="customer">08:00 - 22:00</span><br>
                     <span class="customer">Weekend</span>
@@ -139,10 +135,10 @@
                 <h3 class="services uppercase"> services </h3>
                 <hr>
                 <ul>
+                    <li class="footer-links"> <a href="index.html">Home</a></li>
                     <li class="footer-links"> <a href="membership.html">Membership</a></li>
                     <li class="footer-links"> <a href="nutrition.html">Nutrition</a></li>
-                    <li class="footer-links"> <a href="about-us.html">About Us</a></li>
-                    <li class="footer-links"> <a href="contact.html">Contact</a></li>
+                    <li class="footer-links"> <a class="active" href="contact.html">Contact</a></li>
                 </ul>
             </div>
             <div class=" footer-3">
@@ -159,13 +155,13 @@
                 <p class="street"> Crossfit <br>Andra Långgatan 2, 413 03 <br> Gothenburg </p>
                 <h5 class="uppercase-1"> find us on :</h5>
                 <div class="social-link">
-                    <span class="social color-1"><a href="http://www.facebook.com" target="_blank"><i
+                    <span class="social color-1"><a href="http://www.facebook.com" target="_blank" rel="noopener"><i
                                 class="fab fa-facebook-square"></i> </a></span>
-                    <span class="social color-2"><a href="http://www.twitter.com" target="_blank"><i
+                    <span class="social color-2"><a href="http://www.twitter.com" target="_blank" rel="noopener"><i
                                 class="fab fa-twitter-square"></i> </a></span>
-                    <span class="social color-3"><a href="http://www.youtube.com" target="_blank"> <i
+                    <span class="social color-3"><a href="http://www.youtube.com" target="_blank" rel="noopener"> <i
                                 class="fab fa-youtube"></i></a></span>
-                    <span class="social color-4"><a href="https://www.instagram.com" target="_blank"><i
+                    <span class="social color-4"><a href="https://www.instagram.com" target="_blank" rel="noopener"><i
                                 class="fab fa-instagram"></i></a></span>
                     <p class="copy-right">copyright © crossfit 2020.</p>
                 </div>
