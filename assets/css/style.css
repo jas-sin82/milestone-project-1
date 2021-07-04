@@ -391,14 +391,14 @@ body::before {
 
 }
 
-.carousel-caption  .black {
+.carousel-caption .black {
    color: black;
 }
 
 .carousel-caption .black-1 {
    font-weight: 700px;
    text-transform: capitalize;
-    color:black;
+   color: black;
 }
 
 .hero-text-2 span {
@@ -653,9 +653,13 @@ body::before {
    }
 
    .google-map {
-      width: 200px;
+      width: 250px;
       height: 100px;
 
+   }
+
+   .contact-box-color {
+      width: 90%;
    }
 
    .heading-3 {
