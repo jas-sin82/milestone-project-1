@@ -1526,12 +1526,12 @@ body::before {
 
 .full-name {
    flex-basis: 40%;
-   color: white;
+   color: black;
 }
 
 .last-name {
    flex-basis: 40%;
-   color: white;
+   color: black;
 }
 
 input[type=text],
@@ -1541,13 +1541,12 @@ input[type=email] {
 }
 
 label {
-   color: white;
+   color: black;
    font-size: 16px;
 }
 
 textarea {
    width: 100%;
-   padding: 20px;
    box-sizing: border-box;
 
 }
@@ -1559,19 +1558,19 @@ input[type=submit] {
 }
 
 .reach-us {
-   color: white;
+   color: black;
    text-transform: uppercase;
 }
 
 .street-1 {
-   color: white;
+   color: black;
    text-transform: capitalize;
    margin-top: 30px;
 }
 
 table {
    margin-top: 30px;
-   color: white;
+   color: black;
 }
 
 .c-service {
