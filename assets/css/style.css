@@ -1631,5 +1631,22 @@ footer .conformation-form {
 
 .error-page p {
    font-size: large;
-   padding-bottom:25px;
- }
+   padding-bottom: 25px;
+}
+
+.error-page a {
+   text-decoration: none;
+   background-color: white;
+   color: orangered;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 30px;
+   padding-right: 30px;
+   border-radius: 20px;
+   font-weight: 400;
+
+}
+
+.error-page a:hover {
+   color: black;
+}
