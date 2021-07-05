@@ -274,6 +274,11 @@ and some of them from  unspalsh website [unspalash](https://unsplash.com)
    ![screenshot](mock-images/bug-image.png)
 
    *  To remove this space I decided to test internal css To fix this error, I used internal css body,html { margin= 0, padding = 0, width:100% ,height: 100%,                  overflow-x:hidden} After when I inculde this line of code error was resolved. 
+
+   * I found  bug in footer section of form-submition.html.When I was working on this page what I saw footer occupied the half of space of whole page, to remove this bug 
+     I used height = auto which removed all this space and footer get back to the bottom of the page.
+
+   ![screenshot](mock-images/bug-image-2.png)    
   
   ## Performance Testing 
 
