@@ -1583,6 +1583,28 @@ footer .conformation-form {
    height: auto;
 }
 
-.conformation-button{
-   margin-top:20px;
- }
+.conformation-button {
+   margin-top: 20px;
+
+}
+
+/*---------- 404 error page------*/
+
+.error_page {
+   background-color: #6DD5FA;
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+
+.error_page::before {
+   content: "";
+   display: block;
+   position: absolute;
+   background: black;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   opacity: 0.2;
+}
