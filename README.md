@@ -3,7 +3,7 @@
 ## User-Centric Frontend Development Milestone-1 Project
 
 Intention behind to build this Project is educational purpose(as a student of code institute) ! In this project I have used HTML for structure , CSS to style, media query & bootstap to make the project 
-responsive on all devices and use DOM and javascript to submit a contact form. 
+responsive on all devices.
 
 This project presents a fitness web page call Crossfit. whole project has four diffrent webpages each page has diffrent content but as user prospective 
 each webpage  easily and smoothly will navigate user to their destination.
@@ -42,7 +42,13 @@ each webpage  easily and smoothly will navigate user to their destination.
 
     * [Technology used in a Project](#technology-used-in-a-Project)
 
-    * [ Functionality Test ](#functionality-test)
+    * [Testing](#testing)
+
+        * [ Functionality Test ](#functionality-test)
+
+        * [ Compatibility testing ](#Compatibility-testing) 
+
+        * [Error found during site development ](#Error-found-during-site-development)
            
         * [ Code Validation Test ](#code-validation-test)
 
@@ -249,13 +255,26 @@ and some of them from  unspalsh website [unspalash](https://unsplash.com)
 
  [Back to Highlights ](#highlights)
 
+   # Testing 
+
   ##  Functionality Test 
 
- *   This whole project has been tested on different devices such as Desktop,Ipad, on diffrent Mobiles Iphone x, Iphone 6 , Samsung Note 20.
+   * I used  Chrome developer tools throughout the project for testing and solving problems with responsiveness and style issues.
  
- *    Project has been tested on diffrent browser as well  such as Google Chrome and Microsoft Edge.
+  ##  Compatibility Testing 
 
+   *   Project has been tested on different devices such as Desktop, Ipad and on diffrent Mobiles Iphone x, Iphone 6,7,8 , Samsung Note 20 ,Iphone 5 ,Iphone4,
+      Nexus and it works great.Webpage is fully responsive on all devices.
 
+## Error found during site development 
+
+   * During the site development I found the error in nutrition.html ( webpage had horigental space) even I used margin 0 padding 0 in external css to
+    removes all default margin and padding for every object on the page but it did not helped. 
+
+    ![screenshot](mock-images/bug-image.png)
+
+   *  To remove this space I decided to test internal css To fix this error, I used internal css body,html { margin= 0, padding = 0, width:100% ,height: 100%,                  overflow-x:hidden} After when I inculde this line of code error was resolved. 
+  
   ## Performance Testing 
 
   I have used lighthouse tool to check the performance of website. Here is link [Lighthouse](https://developers.google.com)
