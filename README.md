@@ -261,13 +261,13 @@ and some of them from  unspalsh website [unspalash](https://unsplash.com)
   I have used lighthouse tool to check the performance of website. Here is link [Lighthouse](https://developers.google.com)
 
    
-   ![screenshot](mock-images/testing-performance.png)
+   ![screenshot](mock-images/lighthouse-testing-1.png)
 
-   ![screenshot](mock-images/testing-performance-2.png) 
+   ![screenshot](mock-images/lighthouse-testing-2.png) 
 
-   ![screenshot](mock-images/testing-performance-3.png)
+   ![screenshot](mock-images/lighthouse-testing-3.png)
 
-   ![screenshot](mock-images/testing-performance-4.png)
+   ![screenshot](mock-images/lighthouse-testing-4.png)
 
   ## Code Validation Test 
 
