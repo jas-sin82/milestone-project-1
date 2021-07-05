@@ -1582,3 +1582,7 @@ table {
 footer .conformation-form {
    height: auto;
 }
+
+.conformation-button{
+   margin-top:20px;
+ }
