@@ -148,6 +148,8 @@ Color used in a project
 
     * white
 
+    * #ececec
+
  ## Fonts used in project 
 
   * Font-Family 
@@ -305,22 +307,30 @@ and some of them from  unspalsh website [unspalash](https://unsplash.com)
 
   # Deployment
 
-   I used a Github pages to deployed my project. As I mentioned Above I have Used Gitpod as a code editor to create my project. To commit and push my code I have used Git control version 
-   
-   to save my project on Github.
+   The project was deployed on GitHub Pages. I used Gitpod as a work space where I commited all changes to git version control system.
+   I used push command in Gitpod to save changes into GitHub.
 
    ###  HOw to deploy project on Github 
 
-  * First we need to login in our account on Github.
+   * Log in to GitHub and click on repository to deploy ([Milestone Project 1](https://jas-sin82.github.io/milestone-project-1/)) 
+   
+   * Go to the `Settings` and find GitHub Pages section at the very bottom of the page.
+   
+   * From source select the `Branch`! and click save and page was deployed after auto-refresh.
+.
+   * Your site is published at https://jas-sin82.github.io/milestone-project-1/
 
-  * Second  step we need to choose the repository to deploy.
+   ## To run localy:
 
-  * 3rd  step we need to  go to setting and find git pages.
-
-  * 4th step we need to choose branch in my case I have Master branch and then need to click on  save  and finally we will see our webpage will deploy.
-
-
-   Your site is published at https://jas-sin82.github.io/milestone-project-1/ 
+   * Log in to GitHub and click on repository to download ([Milestone Project 1](https://github.com/jas-sin82/milestone-project-1.git)).
+   
+   * Select `Code` and click Download the ZIP file.
+   
+   * After download you can extract the file and use in your local environment.
+   
+   * Second option is you can [Clone](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository)
+     or [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) this repository ([Milestone Project 1](https://github.com/jas-sin82/milestone-project-1.git)) into your github account.
+  
 
 # Credits
 
