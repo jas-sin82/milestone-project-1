@@ -271,7 +271,7 @@ and some of them from  unspalsh website [unspalash](https://unsplash.com)
    * During the site development I found the error in nutrition.html ( webpage had horigental space) even I used margin 0 padding 0 in external css to
     removes all default margin and padding for every object on the page but it did not helped. 
 
-    ![screenshot](mock-images/bug-image.png)
+   ![screenshot](mock-images/bug-image.png)
 
    *  To remove this space I decided to test internal css To fix this error, I used internal css body,html { margin= 0, padding = 0, width:100% ,height: 100%,                  overflow-x:hidden} After when I inculde this line of code error was resolved. 
   
