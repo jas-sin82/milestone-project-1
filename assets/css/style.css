@@ -1628,3 +1628,8 @@ footer .conformation-form {
    font-size: 100px;
    letter-spacing: 6px;
 }
+
+.error-page p {
+   font-size: large;
+   padding-bottom:25px;
+ }
