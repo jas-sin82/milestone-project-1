@@ -13,9 +13,15 @@
 }*/
 
 body {
-   background-color: #ececec;
+   background-image: url("../images/crossfit-2021-8.jpg");
+   /*background-color: #ececec;*/
    width: 100%;
    height: 100%;
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   position: relative;
 }
 
 body::before {
@@ -28,7 +34,7 @@ body::before {
    right: 0;
    bottom: 0;
    left: 0;
-   opacity: 0.5;
+   opacity: 0.1;
 }
 
 /*-------------------------------------nav-bar and index-page---*/
@@ -136,22 +142,22 @@ body::before {
 
 
 .hero-image {
-   width: 100%;
+   /*width: 100%;
    height: 700px;
    background-image: url("../images/crossfit-2021.jpg");
   /* background-image: url("../images/hero-image.jpg");*/
-   background-position: center;
+   /*background-position: center;
    background-size: cover;
    
    clear: both;
    overflow: hidden;
-   object-fit: cover;
+   object-fit: cover;*/
   /* animation-name: hero-image;
    animation-duration: 7s;
    animation-fill-mode: forwards;*/
-   position: absolute;
+   
    top: 70px;
-   bottom: 70px;
+   /*bottom: 70px;*/
 }
 /*
 @keyframes hero-image {
@@ -163,7 +169,7 @@ body::before {
       transform: scale(1);
    }
 }*/
-
+/*
 .hero-image::before {
    content: "";
    display: block;
@@ -175,7 +181,7 @@ body::before {
    left: 0;
    opacity: 0.3;
 }
-
+*/
 .hero-text {
    position: absolute;
    top: 250px;
@@ -204,7 +210,7 @@ body::before {
    position: absolute;
    margin-top: 30px;
    margin-left: 100px;
-   border:3px solid orangered;
+   border:3px solid white;
    width: 35%;
    font-size: 16px;
    text-align: center;
@@ -216,7 +222,7 @@ body::before {
 .join-us>a {
 
    text-decoration: none;
-   color:white;
+   color:orangered;
    padding: 8px;
 
 
@@ -235,13 +241,14 @@ body::before {
    text-align: center;
    width: 100%;
    height: 100%;
-   margin-top: 150px;
+   margin-top: 50px;
    text-transform: uppercase;
    color: black;
    padding-top: 5px;
    padding-bottom: 5px;
    letter-spacing: 3px;
    font-family: 'Playfair Display SC', serif;
+   font-weight: 900;
 }
 
 .main-section {
@@ -250,7 +257,7 @@ body::before {
    justify-content: space-around;
    text-transform: capitalize;
    height: 100%;
-
+   
 }
 
 
@@ -261,7 +268,11 @@ body::before {
    background-color: #ececec;
    border: none;
    color: black;
-
+   margin-top:10px;
+}
+.col-12 {
+   flex:none;
+   
 }
 
 
@@ -314,10 +325,10 @@ body::before {
    margin-top: -50px;
    margin-bottom: 100px;
    text-transform: uppercase;
-   color: white;
+   color: black;
    border: 2px solid black;
-   background-image: url("../images/home-page-hero.jpg");
-   background-position: center;
+   /*background-image: url("../images/home-page-hero.jpg");
+   background-position: center;*/
    padding-top: 20px;
    padding-bottom: 40px;
    letter-spacing: 3px;
@@ -414,10 +425,22 @@ body::before {
    border:3px solid white;
    background-color:transparent;
    width: 150px;
-   color:white;
+   color:black;
    margin-bottom: -20px;
    margin-right: 10px;
+   font-weight: 600;
 
+}
+.motivation-5 {
+   text-align: center;
+   width: 100%;
+   height: 100%;
+   text-transform: uppercase;
+   color: black;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   letter-spacing: 3px;
+   font-family: 'Playfair Display SC', serif;
 }
 
 .results {
@@ -515,13 +538,25 @@ body::before {
    }
 
    .hero-image {
-      margin-top: -70px;
+      margin-top: 0px;
 
    }
 
    .motivation-home {
-      margin-top: -50px;
+      margin-top: 0px;
 
+   }
+   .motivation {
+      text-align: center;
+      width: 100%;
+      height: 100%;
+      margin-top: 0px;
+      text-transform: uppercase;
+      color: black;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      letter-spacing: 3px;
+      font-family: 'Playfair Display SC', serif;
    }
 
    .nav-lists ul {
@@ -533,12 +568,12 @@ body::before {
    }
 
    .heading-3 {
-      font-size: x-large;
+      font-size: 30px;
    }
 
 
    .transform {
-      font-size: 20px;
+      font-size: 30px;
 
    }
 
@@ -624,7 +659,8 @@ body::before {
    }
 
    .hero-image {
-      margin-top: 50px;
+      margin-top: 0px;
+      
 
    }
 
@@ -634,7 +670,8 @@ body::before {
    }
 
    .button-btn {
-      display: none;
+      margin-left:5px;
+      width:50%;
    }
 
 
@@ -668,7 +705,7 @@ body::before {
    }
 
    .heading-3 {
-      margin-top: 80px;
+      margin-top:0px;
 
    }
 
@@ -726,8 +763,46 @@ body::before {
       margin-top: 50px;
       margin-bottom: 50px;
    }
-
-
+.motivation-5{
+ margin-bottom:80px;
+ margin-top:-50px;
+}
+}
+@media(max-width:430px){
+   .hero-text {
+      position: absolute;
+      top: 250px;
+      left: 50px;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      color: white;
+      font-family: 'Oswald', sans-serif;
+      
+   }
+   .motivation {
+      text-align: center;
+      width: 100%;
+      height: 100%;
+      margin-top: -150px;
+      text-transform: uppercase;
+      color: black;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      letter-spacing: 1px;
+      font-family: 'Playfair Display SC', serif;
+   }
+}
+@media (max-width:374px){
+   .membership{
+   width: 130px;
+   color:black;
+   margin-bottom: -20px;
+   margin-right: 10px;
+  
+   }
+   .hard-work{
+      font-size: large;
+   }
 }
 
 @media (max-width: 320px) {
@@ -889,26 +964,32 @@ body::before {
 /*---------------------------membership-page------------*/
 
 #membership-page {
-   background-image: url("../images/home-page-hero.jpg");
+   background-image: url("../images/crossfit-2021-9.jpg");
+   /*background-image: url("../images/home-page-hero.jpg");*/
    width: 100%;
    min-height: 100%;
+   background-position: center;
+   background-size: cover;
    background-attachment: fixed;
+   background-repeat: no-repeat;
+   position: relative;
+
+   
 }
 
-
 .hero-image-membership {
-   width: 100%;
+  /* width: 100%;
    height: 700px;
    background-image: url("../images/home-page-hero-1.jpg");
    background-position: center;
    background-size: cover;
    clear: both;
-   overflow: hidden;
+   overflow: hidden;*/
    position: absolute;
-   top: 70px;
-   bottom: 70px;
+   top: -70px;
+  /* bottom: 70px;*/
 }
-
+/*
 .hero-image-membership::before {
    content: "";
    display: block;
@@ -919,18 +1000,24 @@ body::before {
    bottom: 0;
    left: 0;
    opacity: 0.2;
-}
+}*/
 
 .hero-text-membership {
    position: absolute;
    top: 300px;
+   left:100px;
    text-transform: uppercase;
    letter-spacing: 4px;
    color: white;
    font-family: 'Oswald', sans-serif;
    text-align: justify;
-
+   border:3px solid lightseagreen;
+   padding:10px;
+   background-image: url("../images/about-page.jpg");
+   opacity: 0.8;
+   
 }
+
 
 .orange {
    color: orangered;
@@ -946,7 +1033,8 @@ body::before {
    padding-top: 5px;
    padding-bottom: 5px;
    letter-spacing: 3px;
-   margin-top: 850px;
+   margin-top: 700px;
+   font-family: 'Playfair Display SC', serif;
 }
 
 .container-membership {
@@ -966,21 +1054,11 @@ body::before {
    opacity: 0.8;
    border-top-left-radius: 50px;
    border-bottom-right-radius: 50px;
-   animation-name: premium;
-   animation-duration: 5s;
-   animation-fill-mode: forwards;
    border: none;
+  
 }
 
-@keyframes premium {
-   from {
-      transform: scale(0.5);
-   }
 
-   to {
-      transform: scale(1);
-   }
-}
 
 .membership-silver {
    background-image: url("../images/about-page.jpg");
@@ -988,21 +1066,12 @@ body::before {
    opacity: 0.8;
    border-top-left-radius: 50px;
    border-bottom-right-radius: 50px;
-   animation-name: silver-1;
-   animation-duration: 5s;
-   animation-fill-mode: forwards;
    border: none;
+ 
 }
 
-@keyframes silver-1 {
-   from {
-      transform: scale(0.5);
-   }
 
-   to {
-      transform: scale(1);
-   }
-}
+
 
 .membership-gold {
    background-image: url("../images/about-page.jpg");
@@ -1010,22 +1079,11 @@ body::before {
    opacity: 0.8;
    border-top-left-radius: 50px;
    border-bottom-right-radius: 50px;
-   animation-name: gold-1;
-   animation-duration: 5s;
-   animation-fill-mode: forwards;
    margin-top: 20px;
    border: none;
+   
 }
 
-@keyframes gold-1 {
-   from {
-      transform: scale(0.5);
-   }
-
-   to {
-      transform: scale(1);
-   }
-}
 
 .membership-platinum {
    margin-top: 20px;
@@ -1035,21 +1093,10 @@ body::before {
    border-top-left-radius: 50px;
    border-bottom-right-radius: 50px;
    background-position: center;
-   animation-name: gold-1;
-   animation-duration: 5s;
-   animation-fill-mode: forwards;
    border: none;
+  
 }
 
-@keyframes gold-1 {
-   from {
-      transform: scale(0.5);
-   }
-
-   to {
-      transform: scale(1);
-   }
-}
 
 .heading-member {
    margin-bottom: 20px;
@@ -1083,6 +1130,8 @@ body::before {
    background-size: cover;
    clear: both;
    overflow: hidden;
+   background-attachment: fixed;
+
 
 }
 
@@ -1130,7 +1179,7 @@ body::before {
 /*---------------------------nutrition-page------------*/
 
 #nutrition-page {
-   background-image: url(../images/home-page-hero.jpg);
+   background-image: url(../images/crossfit-2021-8.jpg);
    width: 100%;
    min-height: 100%;
    background-position: center;
@@ -1138,25 +1187,32 @@ body::before {
    background-attachment: fixed;
    background-repeat: repeat;
    position: relative;
+   
 }
 
 .nutrition-1 {
    position: absolute;
-   top: 100px;
+   top: 300px;
    left: 50px;
+   margin-top:0x;
+   
 }
 
 .background-image {
-   background-image: url("../images/NutritionWellness.jpg");
-   height: 500px;
+  /* background-image: url("../images/crossfit-2021-8.jpg");
+   height: 1200px;
    width: 100%;
    background-size: cover;
-   background-position: center;
-   position: absolute;
-   top: 70px;
+   background-position: center;*/
+ 
+   margin-top: -70px;
+  
+   
+
+ 
 
 }
-
+/*
 .background-image::before {
    content: "";
    display: block;
@@ -1167,12 +1223,14 @@ body::before {
    bottom: 0;
    left: 0;
    opacity: 0.2;
-}
+}*/
 
 .nutrition-centric {
    text-transform: uppercase;
    letter-spacing: 4px;
    color: white;
+   color:black;
+   font-family: 'Playfair Display SC', serif;
    animation-name: gold-1;
    animation-duration: 5s;
    animation-fill-mode: forwards;
@@ -1203,119 +1261,86 @@ body::before {
 }
 
 .nutrition-starter {
-   background-image: url(../images/about-page.jpg);
+   background-image: url(../images/crossfit-2021-4.jpg);
    color: white;
    border: none;
    border-radius: 20px;
-   animation-name: nutrition-1;
-   animation-duration: 7s;
-   animation-fill-mode: forwards;
-
-}
-
-@keyframes nutrition-1 {
-   from {
-      transform: rotate(30deg);
-   }
-
-   to {
-      transform: scale(1);
-   }
-}
-
-.nutrition-starter:hover {
-   background-image: url("../images/nutrition-hover.jpg");
    background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
 
 
+}
+.nutrition-starter::before {
+   content: "";
+   display: block;
+   position: absolute;
+   background: black;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   opacity: 0.2;
 }
 
 .nutrition-basic {
-   background-image: url(../images/about-page.jpg);
+   background-image: url(../images/crossfit-2021-4.jpg);
+   background-position: center;
    color: white;
    border: none;
    border-radius: 20px;
-   animation-name: nutrition-1;
-   animation-duration: 7s;
-   animation-fill-mode: forwards;
+  
 
 }
-
-@keyframes nutrition-1 {
-   from {
-      transform: rotate(30deg);
-   }
-
-   to {
-      transform: scale(1);
-   }
-}
-
-.nutrition-basic:hover {
-   background-image: url("../images/nutrition-hover.jpg");
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-
+.nutrition-basic::before {
+   content: "";
+   display: block;
+   position: absolute;
+   background: black;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   opacity: 0.2;
 }
 
 .nutrition-advanced {
-   background-image: url(../images/about-page.jpg);
+   background-image: url(../images/crossfit-2021-4.jpg);
+   background-position: center;
    color: white;
    border: none;
    border-radius: 20px;
-   animation-name: nutrition-1;
-   animation-duration: 7s;
-   animation-fill-mode: forwards;
 
 }
-
-@keyframes nutrition-1 {
-   from {
-      transform: rotate(30deg);
-   }
-
-   to {
-      transform: scale(1);
-   }
-}
-
-.nutrition-advanced:hover {
-   background-image: url("../images/nutrition-hover.jpg");
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-
+.nutrition-advanced::before {
+   content: "";
+   display: block;
+   position: absolute;
+   background: black;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   opacity: 0.2;
 }
 
 .nutrition-extra-advanced {
-   background-image: url(../images/about-page.jpg);
+   background-image: url(../images/crossfit-2021-4.jpg);
+   background-position: center;
    color: white;
    border: none;
    border-radius: 20px;
-   animation-name: nutrition-1;
-   animation-duration: 7s;
-   animation-fill-mode: forwards;
+  
 
 }
-
-@keyframes nutrition-1 {
-   from {
-      transform: rotate(30deg);
-   }
-
-   to {
-      transform: scale(1);
-   }
-}
-
-.nutrition-extra-advanced:hover {
-   background-image: url("../images/nutrition-hover.jpg");
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
+.nutrition-extra-advanced::before {
+   content: "";
+   display: block;
+   position: absolute;
+   background: black;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   opacity: 0.2;
 }
 
 .nutrition-advanced {
@@ -1349,9 +1374,11 @@ body::before {
    height: 100%;
    margin-bottom: 50px;
    text-transform: uppercase;
-   color: white;
+   color: black;
    padding-top: 5px;
    padding-bottom: 10px;
+   font-family: 'Playfair Display SC', serif;
+   font-weight: 600;
 }
 
 .power {
@@ -1361,63 +1388,56 @@ body::before {
 
 .food-heal {
    text-transform: capitalize;
+   font-weight: 600;
+   font-size:20px ;
 
 }
 
 .crossfit-100-recipies {
    position: absolute;
    top: 150px;
+   font-family: 'Playfair Display SC', serif;
+   font-weight: 600;
 
+}
+.divider-nutrition{
+ background-color: orangered;
+ height:3px;
 }
 
 .recipies-image {
-   background-image: url("../images/100-recipes.jpg");
+   background-image: url("../images/NutritionWellness.jpg");
    height: 500px;
    width: 100%;
-   background-size: cover;
-   background-position: center;
-   position: relative;
-
-}
-
-.recipies-image::before {
-   content: "";
-   display: block;
-   position: absolute;
-   background: black;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   opacity: 0.5;
-}
-
-.nutrition-recipies {
-   text-transform: capitalize;
-   line-height: 2;
-   letter-spacing: 1px;
-   color: whitesmoke;
-   font-weight: normal;
-   font-size: x-large;
-
-}
-
-.nutrition-recipies span {
-   color: orangered;
-   font-size: xx-large;
-
+   background-size:cover;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-position:center;
+ 
+  
 }
 
 .recipies-button {
-   position: absolute;
-   left: 100px;
+   
+  
    margin-top: 30px;
-   width: 130px;
+   width: 35%;
    padding: 7px;
    text-transform: capitalize;
    text-align: center;
+   background:transparent;
+   border: 3px solid orangered;
+   color:black;
+   
+   
 }
-
+.phone-call-2{
+   color:black;
+   font-weight: 600;
+}
+.call-nu{
+   font-family: 600;
+}
 /*-------------------------------contact-page--------*/
 
 #contact-container {
