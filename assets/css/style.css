@@ -7,10 +7,10 @@
    padding: 0;
    font-family: 'Oswald', sans-serif;
 }
-/*
+
 ::-webkit-scrollbar {
    display: none;
-}*/
+}
 
 body {
    background-image: url("../images/crossfit-2021-8.jpg");
@@ -719,7 +719,7 @@ body::before {
       text-align: center;
 
    }
-
+  
    .container-2 {
       width: 100%;
       height: 100%;
@@ -758,6 +758,8 @@ body::before {
    section .about-us-2 {
       margin-top: 0px;
    }
+  
+
 
    section .about-us-3 {
       margin-top: 50px;
@@ -1448,15 +1450,15 @@ body::before {
 }
 
 .contact-image {
-   background-image: url("../images/hero-image.jpg");
+   /*background-image: url("../images/hero-image.jpg");
    height: 100%;
    width: 100%;
    background-position: center;
    background-size: cover;
    clear: both;
    overflow: hidden;
-   background-repeat: no-repeat;
-   position: absolute;
+   background-repeat: no-repeat;*/
+   position: relative;
    top: 70px;
 }
 
@@ -1475,12 +1477,13 @@ body::before {
 .contact-text {
    position: absolute;
    top: 300px;
-   left: 100px;
+   left: 30px;
    text-align: center;
    color: white;
    text-transform: uppercase;
    letter-spacing: 4px;
    justify-content: center;
+
 
 }
 
