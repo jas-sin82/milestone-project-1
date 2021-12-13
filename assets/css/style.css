@@ -7,13 +7,12 @@
    padding: 0;
    font-family: 'Oswald', sans-serif;
 }
-
+/*
 ::-webkit-scrollbar {
    display: none;
-}
+}*/
 
 body {
-
    background-color: #ececec;
    width: 100%;
    height: 100%;
@@ -42,9 +41,11 @@ body::before {
    justify-content: space-around;
    text-align: center;
    position: relative;
-   background-color: black;
+   background-color: rgb(15, 15, 15);
    position: fixed;
    z-index: 1;
+   box-shadow: 6px 6px 10px -1px rgb(0, 0, 0, 0.5),
+   -6px -6px 10px -1px rgb(255, 255, 255, 0.7);
 }
 
 .logo {
@@ -137,19 +138,22 @@ body::before {
 .hero-image {
    width: 100%;
    height: 700px;
-   background-image: url("../images/hero-image.jpg");
+   background-image: url("../images/crossfit-2021.jpg");
+  /* background-image: url("../images/hero-image.jpg");*/
    background-position: center;
    background-size: cover;
+   
    clear: both;
    overflow: hidden;
-   animation-name: hero-image;
+   object-fit: cover;
+  /* animation-name: hero-image;
    animation-duration: 7s;
-   animation-fill-mode: forwards;
+   animation-fill-mode: forwards;*/
    position: absolute;
    top: 70px;
    bottom: 70px;
 }
-
+/*
 @keyframes hero-image {
    from {
       transform: scale(0.5);
@@ -158,7 +162,7 @@ body::before {
    to {
       transform: scale(1);
    }
-}
+}*/
 
 .hero-image::before {
    content: "";
@@ -180,7 +184,7 @@ body::before {
    letter-spacing: 4px;
    color: white;
    font-family: 'Oswald', sans-serif;
-
+   
 }
 
 .hero-text span {
@@ -200,9 +204,8 @@ body::before {
    position: absolute;
    margin-top: 30px;
    margin-left: 100px;
-   border-radius: 20px;
-   width: 25%;
-   background: #44A08D;
+   border:3px solid orangered;
+   width: 35%;
    font-size: 16px;
    text-align: center;
    text-transform: uppercase;
@@ -213,15 +216,16 @@ body::before {
 .join-us>a {
 
    text-decoration: none;
-   color: white;
+   color:white;
    padding: 8px;
+
 
 }
 
 .button-btn:hover {
 
-   background-color: #4ca2cd;
-   width: 35%;
+   
+  
    color: white;
 
 }
@@ -237,7 +241,7 @@ body::before {
    padding-top: 5px;
    padding-bottom: 5px;
    letter-spacing: 3px;
-
+   font-family: 'Playfair Display SC', serif;
 }
 
 .main-section {
@@ -325,6 +329,7 @@ body::before {
 }
 
 .hero-text-2 {
+   font-family: 'Playfair Display SC', serif;
    animation-name: hero-image;
    animation-duration: 7s;
    animation-fill-mode: forwards;
@@ -406,11 +411,11 @@ body::before {
 
 .membership {
    text-transform: capitalize;
-   background-color: orangered;
+   border:3px solid white;
+   background-color:transparent;
    width: 150px;
-   border: none;
+   color:white;
    margin-bottom: -20px;
-   opacity: 0.8;
    margin-right: 10px;
 
 }
@@ -439,6 +444,7 @@ body::before {
    color: black;
    padding-top: 5px;
    padding-bottom: 10px;
+   font-family: 'Playfair Display SC', serif;
 }
 
 .call {
@@ -762,6 +768,7 @@ body::before {
    height: 100%;
    background-color: rgba(19, 26, 26, 0.973);
    justify-content: space-around;
+   
 
 }
 
