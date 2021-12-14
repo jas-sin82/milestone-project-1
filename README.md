@@ -58,7 +58,7 @@ each webpage  easily and smoothly will navigate user to their destination.
 
     * [Credits](#credits)
 
-    * [Screenshots of complete project](#screenshots-of-complete-project)
+    
 
        
 
@@ -355,34 +355,9 @@ and some of them from  unspalsh website [unspalash](https://unsplash.com)
   
   ## To finish this project I have used [Code Institute gitpod full template](https://github.com/Code-Institute-Org/gitpod-full-template) 
 
-   # Screenshots of complete project
+   [Back to Highlights ](#highlights)
 
-  [Back to Highlights ](#highlights)
-
-  ![screenshot](mock-images/home-page-screenshot-1.png)
   
-  ![screenshot](mock-images/Screenshot-home-ipad.png)
-
-  ![screenshot](mock-images/Screenshot-home-mobile.png)
-
-  ![screenshot](mock-images/screenshot-membership.png)
-
-  ![screenshot](mock-images/Screenshot-membership-ipad.png)
-
-  ![screenshot](mock-images/Screenshot-membership-mobile.png)
-
-  ![screenshot](mock-images/Screenshot-nutrition-desktop.png)
-
-  ![screenshot](mock-images/Screenshot-nutrition-ipad.png)
-
-  ![screenshot](mock-images/Screenshot-nutrition-mobile.png)
-
-  ![screenshot](mock-images/Screenshot-contact-ipad.png)
-
-  ![screenshot](mock-images/Screenshot-footer.png)
-
-  [Back to Highlights ](#highlights)
-   
    
    
  
