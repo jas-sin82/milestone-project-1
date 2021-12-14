@@ -17,7 +17,7 @@ each webpage  easily and smoothly will navigate user to their destination.
 # Desktop, Ipad & Mobile
   
 
-![screenshot](mock-images/Screenshot.png)
+![screenshot](mock-images/Screenshot-2021.png)
 
 
 # Highlights
