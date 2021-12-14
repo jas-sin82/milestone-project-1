@@ -22,20 +22,9 @@ body {
    background-attachment: fixed;
    background-repeat: no-repeat;
    position: relative;
+   
 }
 
-body::before {
-
-   content: "";
-   display: block;
-   position: absolute;
-   color: black;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   opacity: 0.1;
-}
 
 /*-------------------------------------nav-bar and index-page---*/
 
@@ -845,7 +834,7 @@ body::before {
    height: 100%;
    background-color: rgba(19, 26, 26, 0.973);
    justify-content: space-around;
-   
+   overflow:hidden;
 
 }
 
@@ -857,7 +846,7 @@ body::before {
 .footer-2 ul li a {
    text-decoration: none;
    color: white;
-
+   cursor: pointer;
 }
 
 .footer-2 ul li .active {
